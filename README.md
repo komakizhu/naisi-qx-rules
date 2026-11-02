@@ -1,6 +1,6 @@
 # 奶思 Quantumult X 规则转换器
 
-从 [fmz200 官方原版](https://github.com/fmz200/wool_scripts/blob/main/QuantumultX/rewrite/rewrite.snippet)重新生成，保留开屏、弹窗、信息流、横幅及应用内脚本，分开交付重写和域名/IP分流。没有使用以往的 clean、compatible、v2 等修正版。**资源语法需要 QX 1.5.2 或以上；尚未经过 QX 实机验证。**
+从 [fmz200 官方原版](https://github.com/fmz200/wool_scripts/blob/main/QuantumultX/rewrite/rewrite.snippet)重新生成，保留开屏、弹窗、信息流、横幅及应用内脚本，分开交付重写和域名/IP分流。没有使用以往的 clean、compatible、v2 等修正版。**资源语法需要 QX 1.5.3 或以上；尚未经过完整 QX 实机验证。**
 
 ## 先用哪个文件
 
@@ -37,6 +37,10 @@ https://raw.githubusercontent.com/komakizhu/naisi-qx-rules/main/Naisi-QX-Filter.
 ```
 
 没有托管时也能手动使用：把重写文件的实际重写行加入现有 `[rewrite_local]`；把末尾 hostname 中所需项目合并到现有 `[mitm] hostname`，保留已有项目和证书；需要分流时将分流行加入现有 `[filter_local]`。这些是手动编辑步骤，本工具没有替你修改设备配置。不同 QX 版本的本地资源 UI 可能不同；本项目不编造一个未经验证的本地资源 URL 协议。
+
+### 遇到 `Invalid Line` 和 `jsonjq-response-body`
+
+请先在 QX「设置 → 关于」查看版本，并升级到 **1.5.3 或以上**。官方版本记录说明，QX 1.5.3 加入了处理 HTTP(S) JSON 正文的 jqlang 支持；低版本会把 `jsonjq-response-body` 识别为无效规则。升级后回到资源页面点“更新”。如果仍提示无效，请确认资源路径指向上方 RAW 地址，并把 QX 版本号和完整报错发来排查。
 
 ## 日后更新
 

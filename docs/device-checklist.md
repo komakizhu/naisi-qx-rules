@@ -4,7 +4,7 @@
 
 ## 资源与 MITM
 
-1. 确认 QX 是 1.5.2 或以上；导入后查看有无解析错误，核对有效重写数量与 validation-report.md。
+1. 确认 QX 是 1.5.3 或以上；导入后查看有无解析错误，核对有效重写数量与 validation-report.md。
 2. 保持已有 MITM 证书，确认系统已经信任；不重置证书，不替换 passphrase 或 p12。
 3. 启用重写与 MITM，查看资源 hostname 是否加载。不要把原版全部 hostname 或 `*` 手动覆盖到主配置。
 4. 按 README 将配套 JSON 放入本机 QX/Data，检查彩云相应接口的返回正文。

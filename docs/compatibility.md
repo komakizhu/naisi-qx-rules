@@ -13,7 +13,7 @@
 | 官方明确支持 | `url reject/reject-img/reject-200/reject-dict/reject-array`、302/307 | sample.conf 的 rewrite_local。保留原作者选定的返回类型，不把所有 reject 动作强行变成同一种。 |
 | 官方明确支持 | `script-request-header`、`script-request-body`、`script-response-header`、`script-response-body`、`script-echo-response`、`script-analyze-echo-response` | sample.conf 明确列出。`script-analyze-echo-response` 会等待请求正文，不等同于响应正文脚本。 |
 | 官方明确支持 | `request-body`、`response-body`、`request-header` | [rewrite.md](https://github.com/crossutility/Quantumult-X/blob/af6fb594233ec4a3ec6d4ccb3601e9c36b75ea2d/rewrite.md)与 sample.conf。格式为 `URL url response-body 匹配式 response-body 替换文本`；保留替换文本中的空格和 `$1`。 |
-| 依赖版本支持 | `jsonjq-request-body` / `jsonjq-response-body` | [开发者在 App Store 的版本历史](https://apps.apple.com/us/app/quantumult-x/id1443988620)：1.5.2，2025-07-18，新增 jqlang；当前官方 sample.conf 给出单引号表达式示例。本完整集最低资源语法要求是 **QX 1.5.2 正式版**，不是对远程脚本全部 API 的最低版本保证。 |
+| 依赖版本支持 | `jsonjq-request-body` / `jsonjq-response-body` | [开发者在 App Store 的版本历史](https://apps.apple.com/us/app/quantumult-x/id1443988620)：1.5.3，2025-09-11，新增 jqlang；当前官方 sample.conf 给出单引号表达式示例。本完整集最低资源语法要求是 **QX 1.5.3 正式版**，不是对远程脚本全部 API 的最低版本保证。 |
 | 依赖版本支持 | `url-and-header` | App Store 版本历史 1.2.0（2022-12-19）引入；官方示例 URL 和 header 两个正则都匹配才执行。菜鸟、闲鱼的 HTTPDNS 规则属于此类，不能误认成未知动作删除。 |
 | 依赖版本支持 | `host-wildcard` | App Store 版本历史 1.0.31（2022-08-19）引入，支持 `*` 和 `?`；不把 host-suffix 粗暴改成通配符。 |
 | 官方明确支持 | 资源中的 `hostname = ...` | [官方远程重写片段](https://github.com/crossutility/Quantumult-X/blob/af6fb594233ec4a3ec6d4ccb3601e9c36b75ea2d/sample-import-rewrite.snippet)。资源内 hostname 是可选行；主配置 `[mitm]` 的证书、密码和解密开关仍由用户管理。 |

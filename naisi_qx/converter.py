@@ -618,7 +618,7 @@ class Conversion:
         out = [f"#!name={title}", "# 来源：fmz200/wool_scripts；转换产物，非作者原文件。",
                "# 规则顺序与分类沿用上游；出处、修复、隔离见 validation-report.md / rule-inventory.json。"]
         if kind == "rewrite":
-            out += ["# 资源语法需要 Quantumult X 1.5.2 或以上（JSONJQ）；脚本运行仍须实机检查。",
+            out += ["# 资源语法需要 Quantumult X 1.5.3 或以上（JSONJQ）；脚本运行仍须实机检查。",
                     "# 仅用于重写资源；不要当作完整主配置。", "# 彩云 echo-response 需要配套 Data 文件，见 README。"]
         else:
             out += ["# 仅用于分流资源；策略 reject。已有 Cats 时先阅读 cats-comparison.md。"]
