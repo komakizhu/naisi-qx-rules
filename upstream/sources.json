@@ -1,0 +1,47 @@
+{
+  "cats": {
+    "branch": "main",
+    "bytes": 8230173,
+    "commit": "1fee1ecd2726ad9c89813f9558a151ef017b388a",
+    "commit_date": "2026-11-01T12:29:56Z",
+    "content_type": "text/plain; charset=utf-8",
+    "etag": "\"e0400206a1e29e900d2b5be5f1ef564678268580394c60059858c92b55b4fbc5\"",
+    "final_url": "https://raw.githubusercontent.com/Cats-Team/AdRules/1fee1ecd2726ad9c89813f9558a151ef017b388a/qx.conf",
+    "path": "qx.conf",
+    "repo": "Cats-Team/AdRules",
+    "sha256": "7e8dd7c327007e7df12d87674828cded0987949492980f79026efd5f1ac53764",
+    "status": 200,
+    "tracking_url": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/qx.conf",
+    "url": "https://raw.githubusercontent.com/Cats-Team/AdRules/1fee1ecd2726ad9c89813f9558a151ef017b388a/qx.conf"
+  },
+  "files": {
+    "cats-qx.conf": "7e8dd7c327007e7df12d87674828cded0987949492980f79026efd5f1ac53764",
+    "naisi-LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "naisi-original.snippet": "371ee2dee23f6aee74017f23e54d42a6d19a1b84f9fc7c63e2f70f59abbe4b9a",
+    "qx-import-rewrite.snippet": "2bd238342baaa08def2845b9c978868492ec947450bc0f2df3e67214d60ec3d3",
+    "qx-resource-parser.js": "6b6dbdcdd77c7327e8a7d56e2ff8fd1177bd8b2eafb7c88b435dd61f2d2a4863",
+    "qx-rewrite.md": "ac0c0684f850ee6d82bf3b065f79b9c8134935afe58682ee606d496528492f45",
+    "qx-sample-echo-response.js": "ce072b76395d56ab051dc11ad57f0f3171726f9b35d30232bc312a09534cb031",
+    "qx-sample.conf": "60acd8eac964c012e6278791dc9e22b5ae2c950b04c5ae350eed795ea7d1234b"
+  },
+  "naisi": {
+    "branch": "main",
+    "bytes": 349915,
+    "commit": "4b7830670baf235ed945085cb926dc499cf619e0",
+    "commit_date": "2026-10-30T16:03:23Z",
+    "content_type": "text/plain; charset=utf-8",
+    "etag": "\"e96c5223a5446aff863ca1bc3eaa946c21c5e9561a4753fee6724cfc5a62cf18\"",
+    "final_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/4b7830670baf235ed945085cb926dc499cf619e0/QuantumultX/rewrite/rewrite.snippet",
+    "path": "QuantumultX/rewrite/rewrite.snippet",
+    "repo": "fmz200/wool_scripts",
+    "sha256": "371ee2dee23f6aee74017f23e54d42a6d19a1b84f9fc7c63e2f70f59abbe4b9a",
+    "status": 200,
+    "tracking_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/rewrite.snippet",
+    "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/4b7830670baf235ed945085cb926dc499cf619e0/QuantumultX/rewrite/rewrite.snippet"
+  },
+  "qx": {
+    "commit": "af6fb594233ec4a3ec6d4ccb3601e9c36b75ea2d",
+    "note": "固定为本转换器实际调研过的官方文档版本；新语法需人工更新转换器后测试",
+    "repo": "crossutility/Quantumult-X"
+  }
+}

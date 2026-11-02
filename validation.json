@@ -1,0 +1,26 @@
+{
+  "errors": [],
+  "stats": {
+    "duplicates": 96,
+    "fixed_rules": 81,
+    "merged": 1,
+    "mitm_added": 74,
+    "mitm_inactive": 46,
+    "mitm_original": 966,
+    "mitm_output": 994,
+    "output_filters": 2667,
+    "output_rewrites": 1600,
+    "quarantined": 19,
+    "represented": 4364,
+    "source_filters": 2761,
+    "source_physical_lines": 7401,
+    "source_rewrites": 1622,
+    "source_rules": 4383
+  },
+  "tests": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "returncode": 0,
+    "status": "passed",
+    "tests_run": 47
+  }
+}

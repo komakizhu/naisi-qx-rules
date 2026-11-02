@@ -1,0 +1,3674 @@
+{
+  "apps": {
+    "12123": {
+      "kept": 6,
+      "represented": 6,
+      "source": 6
+    },
+    "12306": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "17173（网络游戏门户网站）": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "178游戏网": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "18183游戏网": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "1905电影网": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "21经济网": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "2345天气王": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "2345网址导航": {
+      "kept": 11,
+      "represented": 11,
+      "source": 11
+    },
+    "360": {
+      "kept": 25,
+      "represented": 25,
+      "source": 25
+    },
+    "360儿童卫士": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "365日历": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "39健康网": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "500": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "51CTO学堂": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "51信用卡管家": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "555影视": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "58同城": {
+      "kept": 21,
+      "represented": 21,
+      "source": 21
+    },
+    "58汽车": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "9to5Mac": {
+      "kept": 29,
+      "represented": 29,
+      "source": 29
+    },
+    "AOL（美国在线）": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "AcFun": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "Adobe": {
+      "kept": 26,
+      "represented": 26,
+      "source": 26
+    },
+    "Adobe Flash China Special Edition": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "Akamai": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "Amazon": {
+      "kept": 12,
+      "represented": 12,
+      "source": 12
+    },
+    "AppSo": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "Apple": {
+      "kept": 26,
+      "represented": 26,
+      "source": 26
+    },
+    "BBC": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "Bing": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "Blued": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "Braze": {
+      "kept": 9,
+      "represented": 9,
+      "source": 9
+    },
+    "C&J Marketing": {
+      "kept": 14,
+      "represented": 14,
+      "source": 14
+    },
+    "CNN": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "CSDN": {
+      "kept": 8,
+      "represented": 8,
+      "source": 8
+    },
+    "Camera360": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "Clubmed": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "DLabel云标签": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "Dr.Peng": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "EMS微信小程序": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "Facebook": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "Go.com": {
+      "kept": 9,
+      "represented": 9,
+      "source": 9
+    },
+    "Google": {
+      "duplicate": 1,
+      "kept": 54,
+      "represented": 55,
+      "source": 55
+    },
+    "Hao123": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "Huawei AspiegelBot": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "IT之家": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "Keep": {
+      "kept": 19,
+      "represented": 19,
+      "source": 19
+    },
+    "LING Club-原菱菱邦": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "Line": {
+      "kept": 33,
+      "represented": 33,
+      "source": 33
+    },
+    "LinkWiFi": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "LinkedIn": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "LocSim": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "Lycos": {
+      "kept": 10,
+      "represented": 10,
+      "source": 10
+    },
+    "MIX": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "MacKeeper": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "Makeding (苏州思杰马克丁)": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "Microsoft": {
+      "kept": 38,
+      "represented": 38,
+      "source": 38
+    },
+    "NTPlay": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "Naver": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "New Relic": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "ONE": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "OPPO": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "Openmultimedia": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "Optimix（奥迪美）": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "Oray": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "Oupeng (欧朋)": {
+      "kept": 6,
+      "represented": 6,
+      "source": 6
+    },
+    "Outfit7（会说话的汤姆猫）": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "Outlook": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "PPTV": {
+      "kept": 14,
+      "represented": 14,
+      "source": 14
+    },
+    "PeanutWiFi": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "Photoable": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "PushPlus微信推送广告": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "QQ浏览器": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "QQ钱包": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "QQ音乐": {
+      "duplicate": 4,
+      "kept": 35,
+      "represented": 39,
+      "source": 39
+    },
+    "RARBG": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "Reddit": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "Sape": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "Snapchat": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "Soul": {
+      "kept": 27,
+      "represented": 27,
+      "source": 27
+    },
+    "Spotify": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "TT语音": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "Talkatone": {
+      "duplicate": 5,
+      "kept": 30,
+      "represented": 35,
+      "source": 35
+    },
+    "Tanwan (贪玩)": {
+      "kept": 12,
+      "represented": 12,
+      "source": 12
+    },
+    "TapTap": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "Top Widgets": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "TruthSocial": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "TubeMax": {
+      "duplicate": 1,
+      "kept": 8,
+      "represented": 9,
+      "source": 9
+    },
+    "Tumblr": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "Turn": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "Twitch": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "Twitter": {
+      "kept": 6,
+      "represented": 6,
+      "source": 6
+    },
+    "UC浏览器": {
+      "duplicate": 3,
+      "kept": 85,
+      "represented": 88,
+      "source": 88
+    },
+    "Unity Ads": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "Urban Airship": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "U净": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "VIVO商城": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "Vista看天下": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "Vivo": {
+      "kept": 9,
+      "represented": 9,
+      "source": 9
+    },
+    "WPS": {
+      "kept": 1,
+      "quarantined": 1,
+      "represented": 1,
+      "source": 2
+    },
+    "Waps（无线广告交易中心）": {
+      "kept": 9,
+      "represented": 9,
+      "source": 9
+    },
+    "Weico(微博客户端)": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "Whale Cloud (鲸云)": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "WiFi万能钥匙": {
+      "kept": 21,
+      "represented": 21,
+      "source": 21
+    },
+    "Wostore (联通沃商店)": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "YY直播平台": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "Yahoo": {
+      "kept": 42,
+      "represented": 42,
+      "source": 42
+    },
+    "YouTube": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "ZAKER新闻": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "bshare": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "clicli": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "crunchyroll": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "e代驾": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "e充电": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "i3": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "linxi": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "lofter": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "ofo共享单车": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "omofun": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "pikpak": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "udn news": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "vgTime": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "一刻相册": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "一号店": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "一汽大众": {
+      "kept": 7,
+      "represented": 7,
+      "source": 7
+    },
+    "一淘": {
+      "quarantined": 2,
+      "source": 2
+    },
+    "一点资讯": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "一起考教师": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "丁香医生": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "丁香园": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "七猫小说": {
+      "duplicate": 1,
+      "kept": 13,
+      "represented": 14,
+      "source": 14
+    },
+    "万词王": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "万达电影": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "三联中读": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "下厨房": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "世纪佳缘": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "东方网": {
+      "kept": 6,
+      "represented": 6,
+      "source": 6
+    },
+    "东方航空": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "东方财富": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "两步路": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "中信银行": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "中关村": {
+      "kept": 18,
+      "represented": 18,
+      "source": 18
+    },
+    "中关村在线": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "中华万年历": {
+      "kept": 10,
+      "represented": 10,
+      "source": 10
+    },
+    "中华网": {
+      "kept": 7,
+      "represented": 7,
+      "source": 7
+    },
+    "中国人保": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "中国人寿": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "中国国际航空": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "中国天气网小程序": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "中国平安": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "中国广电": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "中国日报": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "中国电信": {
+      "kept": 8,
+      "represented": 8,
+      "source": 8
+    },
+    "中国知网": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "中国移动": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "中国移动云盘": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "中国联通": {
+      "kept": 7,
+      "represented": 7,
+      "source": 7
+    },
+    "中国银行 缤纷生活": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "中油优途": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "中油好客e站小程序": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "中羽在线": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "中通快递": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "中银跨境GO": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "丰巢": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "乐刻": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "乐堡潮玩馆小程序": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "乐居": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "乐播投屏": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "乐橙": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "乐视": {
+      "kept": 19,
+      "represented": 19,
+      "source": 19
+    },
+    "九游": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "书旗小说": {
+      "kept": 15,
+      "represented": 15,
+      "source": 15
+    },
+    "买单吧": {
+      "duplicate": 1,
+      "kept": 6,
+      "represented": 7,
+      "source": 7
+    },
+    "云之家": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "云宝宝大数据": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "云快充": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "云闪付": {
+      "kept": 7,
+      "represented": 7,
+      "source": 7
+    },
+    "云麦": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "互传": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "亚信科技": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "亚朵开屏": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "京东": {
+      "kept": 18,
+      "represented": 18,
+      "source": 18
+    },
+    "京东云无线宝": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "京东健康": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "京东读书": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "京东金融": {
+      "kept": 6,
+      "represented": 6,
+      "source": 6
+    },
+    "京喜": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "亲宝宝": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "人人视频": {
+      "kept": 18,
+      "represented": 18,
+      "source": 18
+    },
+    "人民日报": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "人民网": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "什么值得买": {
+      "duplicate": 1,
+      "kept": 24,
+      "represented": 25,
+      "source": 25
+    },
+    "今日头条": {
+      "kept": 23,
+      "represented": 23,
+      "source": 23
+    },
+    "今日水印相机": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "企迈 - QMAI(包含: 挪瓦咖啡、林里柠檬茶、霸王茶姬、陈香贵)": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "众邦银行": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "优书": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "优酷": {
+      "kept": 35,
+      "represented": 35,
+      "source": 35
+    },
+    "会声会影": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "低端影视": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "住这儿": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "作业帮": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "元聚网络（漫画岛，追书神器，甜瓜小说）": {
+      "kept": 9,
+      "represented": 9,
+      "source": 9
+    },
+    "光大银行": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "光大银行 阳光惠生活": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "全家便利店": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "全民K歌": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "全民生活": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "全球购骑士卡": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "全能浏览器": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "公考雷达": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "兴业生活": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "兴业证券": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "兴业银行": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "农业银行": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "冠寓": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "凤凰新媒体": {
+      "kept": 17,
+      "represented": 17,
+      "source": 17
+    },
+    "凤凰秀": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "分期乐": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "创客贴设计": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "创维": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "到梦空间": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "刺猬猫阅读": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "前程无忧 51Job": {
+      "kept": 11,
+      "represented": 11,
+      "source": 11
+    },
+    "加油广东": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "动卡空间": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "动画疯": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "勾正数据（GozenData）": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "北京银行": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "北京首汽": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "医考帮": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "半月谈": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "华为商城": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "华住会": {
+      "kept": 6,
+      "represented": 6,
+      "source": 6
+    },
+    "华宝智投": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "华尔街见闻": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "华彩生活": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "华数TV": {
+      "kept": 8,
+      "represented": 8,
+      "source": 8
+    },
+    "华盛通": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "南方航空": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "印象笔记": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "厦门航空": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "去哒": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "去哪儿": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "友邦": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "友邻优课": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "发现精彩": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "口袋校园": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "叮咚买菜": {
+      "kept": 15,
+      "represented": 15,
+      "source": 15
+    },
+    "叮嗒出行": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "台铃智能": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "合利宝展业通": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "吉林银行": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "同盾": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "同程旅行": {
+      "kept": 8,
+      "represented": 8,
+      "source": 8
+    },
+    "同花顺": {
+      "kept": 6,
+      "represented": 6,
+      "source": 6
+    },
+    "向日葵": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "和讯网": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "和风天气": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "咪咕视频": {
+      "kept": 16,
+      "represented": 16,
+      "source": 16
+    },
+    "哈富证券": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "哔哩哔哩漫画": {
+      "kept": 12,
+      "represented": 12,
+      "source": 12
+    },
+    "唯品会": {
+      "kept": 8,
+      "represented": 8,
+      "source": 8
+    },
+    "喜马拉雅": {
+      "kept": 27,
+      "represented": 27,
+      "source": 27
+    },
+    "嗨学": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "嘀嗒出行": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "四季線上影視": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "团油": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "国双 (Gridsum)": {
+      "kept": 12,
+      "represented": 12,
+      "source": 12
+    },
+    "国家医保服务平台": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "国泰君安": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "国美电器": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "埋堆堆": {
+      "kept": 8,
+      "represented": 8,
+      "source": 8
+    },
+    "墨迹天气": {
+      "kept": 14,
+      "represented": 14,
+      "source": 14
+    },
+    "复游会微信小程序": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "多多视频": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "大众点评": {
+      "kept": 19,
+      "represented": 19,
+      "source": 19
+    },
+    "大师兄": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "大智慧": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "大疆商城": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "大麦": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "天天基金": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "天天看看": {
+      "kept": 7,
+      "represented": 7,
+      "source": 7
+    },
+    "天山云TV": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "天府市民云": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "天府手机银行": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "天府通": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "天府银行小程序": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "天星金融": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "天猫养车": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "天猫精灵": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "天神": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "天翼云盘": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "太平洋电脑": {
+      "kept": 16,
+      "represented": 16,
+      "source": 16
+    },
+    "太平洋知科技": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "央视影音 (CBox)": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "央视网": {
+      "kept": 22,
+      "represented": 22,
+      "source": 22
+    },
+    "央视频": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "夸克": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "奇瑞汽车": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "奈菲影视": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "奔图": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "好型体重秤": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "好奇心日报": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "好好住": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "好游快爆": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "妈妈网": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "妈妈网孕育": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "威锋": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "字节跳动": {
+      "duplicate": 9,
+      "kept": 17,
+      "quarantined": 2,
+      "represented": 26,
+      "source": 28
+    },
+    "宁聚": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "安吉星": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "安徽掌上10000": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "完美世界电竞": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "宝宝树": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "宝宝树孕育": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "富途牛牛": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "寻医问药": {
+      "kept": 8,
+      "represented": 8,
+      "source": 8
+    },
+    "小Biu智家": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "小佩宠物": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "小兔充充": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "小利生活": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "小合拓展": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "小宇宙": {
+      "kept": 6,
+      "represented": 6,
+      "source": 6
+    },
+    "小小影视": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "小桔科技": {
+      "kept": 1,
+      "quarantined": 2,
+      "represented": 1,
+      "source": 3
+    },
+    "小熊拦截": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "小熊艺术": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "小爱音箱": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "小牛": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "小特 - 首选特斯拉中文社区": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "小电充电": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "小白学习打印机": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "小睡眠": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "小米": {
+      "kept": 57,
+      "represented": 57,
+      "source": 57
+    },
+    "小米商城": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "小米打印": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "小米有品": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "小米运动": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "小米金融": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "小红书": {
+      "kept": 23,
+      "represented": 23,
+      "source": 23
+    },
+    "小艺": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "小芒": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "小蚕霸王餐": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "小象超市": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "少数派": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "山姆会员商店": {
+      "kept": 7,
+      "represented": 7,
+      "source": 7
+    },
+    "崩坏3": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "工商银行": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "工时记录": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "工银E生活": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "工银e生活小程序": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "巨潮资讯": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "币世界": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "币安": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "希尔顿": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "希沃白板5": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "平安口袋银行": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "平安壹钱包": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "平安好车主": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "平安证券": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "广发银行": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "广告联盟": {
+      "duplicate": 3,
+      "kept": 387,
+      "represented": 390,
+      "source": 390
+    },
+    "广州农商银行": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "广州地铁乘车码": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "广汽传祺": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "建行生活": {
+      "kept": 7,
+      "represented": 7,
+      "source": 7
+    },
+    "开源中国": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "当当网": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "当当阅读": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "彩云天气": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "得物": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "微信公众号": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "微信解除链接限制": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "微店": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "心悦俱乐部": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "必胜客": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "快乐广播": {
+      "kept": 7,
+      "represented": 7,
+      "source": 7
+    },
+    "快压zip": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "快懂百科": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "快手": {
+      "kept": 10,
+      "merged": 1,
+      "represented": 11,
+      "source": 11
+    },
+    "快手联盟,优量汇,穿山甲「广告联盟」": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "快看": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "快递100": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "快速问医生": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "怪兽充电": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "悟空遥控器": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "悠易互通": {
+      "kept": 19,
+      "represented": 19,
+      "source": 19
+    },
+    "悠洗APP": {
+      "kept": 6,
+      "represented": 6,
+      "source": 6
+    },
+    "悠视网": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "懂球帝": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "懂车帝": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "懒人听书": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "懒投资": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "我爱卡社区管家": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "房天下 (Soufun)": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "手机中国": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "抖音": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "拉卡拉": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "招商证券": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "招商银行": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "招财猫直聘": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "拦截100": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "拼多多": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "挂号网（微医）": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "指点天下": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "掌上京彩": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "掌上公交": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "掌上生活": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "掌上英雄联盟": {
+      "kept": 2,
+      "quarantined": 1,
+      "represented": 2,
+      "source": 3
+    },
+    "掌上道具城": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "掌上鹿城": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "掌阅": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "推栏": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "搜狐": {
+      "kept": 36,
+      "represented": 36,
+      "source": 36
+    },
+    "搜狗": {
+      "duplicate": 1,
+      "kept": 76,
+      "represented": 77,
+      "source": 77
+    },
+    "搜狗输入法": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "搜电充电": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "携程": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "收钱吧": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "故宫博物馆小程序": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "数盟 (Shuzilm)": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "斗鱼直播": {
+      "kept": 13,
+      "represented": 13,
+      "source": 13
+    },
+    "新华网": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "新民网": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "新浪": {
+      "duplicate": 39,
+      "kept": 77,
+      "represented": 116,
+      "source": 116
+    },
+    "新浪新闻": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "新片场": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "旅法师营地": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "旅途随身听": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "无他相机": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "日产智联": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "日日煮": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "日淘任意门": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "易捷加油": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "易查": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "易校园": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "易车": {
+      "kept": 9,
+      "represented": 9,
+      "source": 9
+    },
+    "星火英语": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "星财富": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "星途 starway": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "映客直播": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "晓晓优选": {
+      "kept": 30,
+      "represented": 30,
+      "source": 30
+    },
+    "智行APP": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "暴风影音": {
+      "kept": 45,
+      "represented": 45,
+      "source": 45
+    },
+    "曜影医疗": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "曹操专车": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "最右": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "有兔阅读(米兔)": {
+      "kept": 10,
+      "represented": 10,
+      "source": 10
+    },
+    "有米": {
+      "kept": 10,
+      "represented": 10,
+      "source": 10
+    },
+    "本来生活": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "朴朴超市": {
+      "kept": 17,
+      "represented": 17,
+      "source": 17
+    },
+    "朵朵校友圈": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "机核网": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "来电": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "来疯": {
+      "kept": 1,
+      "quarantined": 1,
+      "represented": 1,
+      "source": 2
+    },
+    "杭州公交": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "杭州市民": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "极简汇率": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "樊登读书": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "横店电影小程序": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "正气助手": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "歪麦霸王餐": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "每日优鲜": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "每日精选": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "比亚迪王朝": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "比特球云盘": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "民生银行": {
+      "kept": 6,
+      "represented": 6,
+      "source": 6
+    },
+    "永安行": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "永辉": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "汇丰汇选": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "汇付天下": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "江苏银行": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "汽水音乐": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "汽车之家": {
+      "kept": 35,
+      "represented": 35,
+      "source": 35
+    },
+    "沪江网校": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "波点音乐": {
+      "kept": 7,
+      "represented": 7,
+      "source": 7
+    },
+    "浙里办": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "浦发银行": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "浦大喜奔": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "海尔服务小程序": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "海豚优惠": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "海马爸比": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "涨乐财富通": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "淘宝": {
+      "kept": 43,
+      "represented": 43,
+      "source": 43
+    },
+    "淘淘搜": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "淘淘阅读": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "淘票票": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "深圳通": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "温尼伯站": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "游久网": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "游戏时光": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "游民星空": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "游迅网": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "湖南卫视": {
+      "kept": 11,
+      "represented": 11,
+      "source": 11
+    },
+    "滴滴代驾": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "滴滴出行": {
+      "kept": 11,
+      "represented": 11,
+      "source": 11
+    },
+    "滴滴青桔": {
+      "duplicate": 1,
+      "kept": 2,
+      "represented": 3,
+      "source": 3
+    },
+    "漫画人": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "潮玩宇宙": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "澎湃新闻": {
+      "kept": 6,
+      "represented": 6,
+      "source": 6
+    },
+    "澳觅": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "火猫": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "熊猫直播": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "爆米花": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "爱企查": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "爱卡汽车网": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "爱回收": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "爱奇艺": {
+      "duplicate": 1,
+      "kept": 61,
+      "represented": 62,
+      "source": 62
+    },
+    "爱思助手": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "爱拍": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "爱桐乡": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "爱牵挂care": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "爱美剧": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "爱阅书香": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "牛听听": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "牛津高阶词典第十版": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "猎聘": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "猪八戒": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "猫扑 (Mop)": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "猫眼": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "猫耳FM": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "猿辅导": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "环球网": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "球迷报": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "瑞幸咖啡": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "电E宝": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "电影猎手": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "电脑之家": {
+      "kept": 6,
+      "represented": 6,
+      "source": 6
+    },
+    "电视家": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "界面新闻": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "番茄小说": {
+      "duplicate": 1,
+      "kept": 34,
+      "represented": 35,
+      "source": 35
+    },
+    "百信银行": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "百姓网": {
+      "kept": 6,
+      "represented": 6,
+      "source": 6
+    },
+    "百度": {
+      "duplicate": 3,
+      "kept": 172,
+      "quarantined": 2,
+      "represented": 175,
+      "source": 177
+    },
+    "百度地图": {
+      "duplicate": 1,
+      "kept": 10,
+      "represented": 11,
+      "source": 11
+    },
+    "百度文库": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "百度网盘": {
+      "duplicate": 1,
+      "kept": 16,
+      "represented": 17,
+      "source": 17
+    },
+    "百度翻译": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "百度贴吧": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "百度输入法": {
+      "kept": 9,
+      "quarantined": 1,
+      "represented": 9,
+      "source": 10
+    },
+    "百意": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "百词斩": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "皮皮搞笑": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "皮皮虾": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "盈宝证券": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "盈立智投": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "盒马": {
+      "kept": 7,
+      "represented": 7,
+      "source": 7
+    },
+    "盖得排行": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "盛趣游戏": {
+      "duplicate": 1,
+      "kept": 1,
+      "represented": 2,
+      "source": 2
+    },
+    "盯盯拍": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "省省回头车": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "看东方（百视TV）": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "看天下": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "看理想": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "真不卡": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "知乎": {
+      "kept": 43,
+      "quarantined": 1,
+      "represented": 43,
+      "source": 44
+    },
+    "神舟汽车": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "神马": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "票星球": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "票根": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "福享太平": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "秒拍": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "稀饭动漫": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "稿定设计": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "穷游": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "笑容加": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "笔趣阁": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "简讯": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "米家": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "米游社": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "米读": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "粉笔": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "红版报": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "网上国网": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "网易": {
+      "kept": 106,
+      "represented": 106,
+      "source": 106
+    },
+    "网易严选": {
+      "kept": 3,
+      "quarantined": 1,
+      "represented": 3,
+      "source": 4
+    },
+    "网易云音乐": {
+      "kept": 12,
+      "represented": 12,
+      "source": 12
+    },
+    "网易大神": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "网易新闻": {
+      "quarantined": 1,
+      "source": 1
+    },
+    "网易有道词典": {
+      "kept": 13,
+      "represented": 13,
+      "source": 13
+    },
+    "网易有钱": {
+      "quarantined": 1,
+      "source": 1
+    },
+    "网易考拉": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "网易蜗牛读书": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "网易邮箱": {
+      "kept": 1,
+      "quarantined": 1,
+      "represented": 1,
+      "source": 2
+    },
+    "罗森点点": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "美丽修行": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "美味不用等": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "美团": {
+      "kept": 10,
+      "represented": 10,
+      "source": 10
+    },
+    "美团 & 美团外卖": {
+      "kept": 7,
+      "represented": 7,
+      "source": 7
+    },
+    "美团众包": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "美团充电宝小程序": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "美图秀秀": {
+      "kept": 14,
+      "represented": 14,
+      "source": 14
+    },
+    "美柚": {
+      "kept": 8,
+      "represented": 8,
+      "source": 8
+    },
+    "美颜相机": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "翼支付": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "职工普惠": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "联想": {
+      "kept": 18,
+      "represented": 18,
+      "source": 18
+    },
+    "联想至像打印": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "肯德基": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "育学园": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "脉脉": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "腾讯乘车码": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "腾讯体育": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "腾讯地图": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "腾讯广告": {
+      "duplicate": 1,
+      "kept": 18,
+      "represented": 19,
+      "source": 19
+    },
+    "腾讯手机管家": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "腾讯新闻": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "腾讯智慧": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "腾讯游戏": {
+      "quarantined": 1,
+      "source": 1
+    },
+    "腾讯游戏社区": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "腾讯系": {
+      "duplicate": 15,
+      "kept": 24,
+      "represented": 39,
+      "source": 39
+    },
+    "自如": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "航旅纵横": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "艺龙": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "艺龙旅行网": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "芒果TV": {
+      "kept": 42,
+      "represented": 42,
+      "source": 42
+    },
+    "花小猪": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "花生地铁": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "苏e行": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "苏周到": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "苏宁易购": {
+      "kept": 8,
+      "represented": 8,
+      "source": 8
+    },
+    "苏打校园APP": {
+      "kept": 6,
+      "represented": 6,
+      "source": 6
+    },
+    "莱充": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "菜鸟裹裹": {
+      "kept": 13,
+      "represented": 13,
+      "source": 13
+    },
+    "菠萝包轻小说": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "萤石": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "蓝基因": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "薄荷健康": {
+      "kept": 9,
+      "represented": 9,
+      "source": 9
+    },
+    "蘑菇租房": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "蘑菇街": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "虎嗅": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "虎扑": {
+      "kept": 13,
+      "represented": 13,
+      "source": 13
+    },
+    "虎牙直播": {
+      "kept": 11,
+      "represented": 11,
+      "source": 11
+    },
+    "虾米音乐": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "蜗牛睡眠": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "蜻蜓FM": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "街电": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "西施眼": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "西窗烛": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "讯飞": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "讯飞输入法": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "识货": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "豆瓣": {
+      "kept": 7,
+      "represented": 7,
+      "source": 7
+    },
+    "豌豆荚": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "贝壳找房": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "贝太厨房": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "财新网": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "财经杂志": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "财联社": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "购物党": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "赶集网": {
+      "kept": 6,
+      "represented": 6,
+      "source": 6
+    },
+    "起点读书": {
+      "kept": 13,
+      "represented": 13,
+      "source": 13
+    },
+    "超星学习通": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "超级课程表": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "车来了": {
+      "kept": 10,
+      "represented": 10,
+      "source": 10
+    },
+    "转转": {
+      "kept": 7,
+      "represented": 7,
+      "source": 7
+    },
+    "达达骑士版": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "迅游加速器": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "迅雷": {
+      "kept": 18,
+      "represented": 18,
+      "source": 18
+    },
+    "返利网": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "追书神器": {
+      "quarantined": 1,
+      "source": 1
+    },
+    "追剧达人": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "途家民宿": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "途牛": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "途虎养车": {
+      "kept": 13,
+      "represented": 13,
+      "source": 13
+    },
+    "邮储银行": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "郑好办": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "酷6网": {
+      "kept": 7,
+      "represented": 7,
+      "source": 7
+    },
+    "酷安": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "酷我音乐": {
+      "kept": 23,
+      "represented": 23,
+      "source": 23
+    },
+    "酷狗音乐": {
+      "duplicate": 1,
+      "kept": 55,
+      "represented": 56,
+      "source": 56
+    },
+    "金十数据": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "金山系 (Kingsoft)": {
+      "kept": 33,
+      "represented": 33,
+      "source": 33
+    },
+    "金山词霸": {
+      "kept": 13,
+      "represented": 13,
+      "source": 13
+    },
+    "金立 (Gionee)": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "金融界": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "钉钉": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "银盛小Y管家": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "银盛通": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "锦江荟APP": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "长城炼金术": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "闪动校园": {
+      "kept": 6,
+      "represented": 6,
+      "source": 6
+    },
+    "闪现一下": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "闪萌": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "闲鱼": {
+      "kept": 23,
+      "represented": 23,
+      "source": 23
+    },
+    "阿里云": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "阿里云盘": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "阿里巴巴": {
+      "kept": 15,
+      "represented": 15,
+      "source": 15
+    },
+    "雪球": {
+      "kept": 13,
+      "represented": 13,
+      "source": 13
+    },
+    "韩剧TV": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "音悦Tai": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "顺丰优选": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "顺丰快递": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "顺丰快递小程序": {
+      "duplicate": 1,
+      "kept": 5,
+      "represented": 6,
+      "source": 6
+    },
+    "风行网": {
+      "kept": 11,
+      "represented": 11,
+      "source": 11
+    },
+    "飞客茶馆": {
+      "kept": 8,
+      "represented": 8,
+      "source": 8
+    },
+    "飞常准": {
+      "kept": 5,
+      "represented": 5,
+      "source": 5
+    },
+    "飞猪": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "飞猫管家": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "饿了么": {
+      "kept": 15,
+      "represented": 15,
+      "source": 15
+    },
+    "首旅如家": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "首汽约车": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "香蕉是一种水果": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "马卡龙玩图": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "马蜂窝": {
+      "kept": 6,
+      "represented": 6,
+      "source": 6
+    },
+    "马达出行": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "驾校一点通": {
+      "kept": 8,
+      "represented": 8,
+      "source": 8
+    },
+    "驾考宝典": {
+      "kept": 3,
+      "represented": 3,
+      "source": 3
+    },
+    "高德地图": {
+      "kept": 18,
+      "represented": 18,
+      "source": 18
+    },
+    "高铁管家": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    },
+    "魅族 (Meizu)": {
+      "kept": 21,
+      "represented": 21,
+      "source": 21
+    },
+    "鲁班到家用户版": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "鸭奈飞": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "麦当劳": {
+      "kept": 1,
+      "represented": 1,
+      "source": 1
+    },
+    "黄油相机": {
+      "kept": 4,
+      "represented": 4,
+      "source": 4
+    },
+    "齐鲁网": {
+      "kept": 2,
+      "represented": 2,
+      "source": 2
+    }
+  },
+  "features": {
+    "JSONJQ": {
+      "kept": 31,
+      "merged": 1,
+      "represented": 32,
+      "source": 32
+    },
+    "URL拦截/重定向": {
+      "duplicate": 4,
+      "kept": 1325,
+      "quarantined": 17,
+      "represented": 1329,
+      "source": 1346
+    },
+    "信息流/推荐": {
+      "kept": 116,
+      "quarantined": 2,
+      "represented": 116,
+      "source": 118
+    },
+    "域名/IP拦截": {
+      "duplicate": 92,
+      "kept": 2667,
+      "quarantined": 2,
+      "represented": 2759,
+      "source": 2761
+    },
+    "开屏": {
+      "kept": 119,
+      "merged": 1,
+      "quarantined": 4,
+      "represented": 120,
+      "source": 124
+    },
+    "弹窗": {
+      "kept": 76,
+      "represented": 76,
+      "source": 76
+    },
+    "横幅": {
+      "kept": 65,
+      "represented": 65,
+      "source": 65
+    },
+    "正文/头部替换": {
+      "kept": 28,
+      "represented": 28,
+      "source": 28
+    },
+    "脚本处理": {
+      "kept": 216,
+      "represented": 216,
+      "source": 216
+    }
+  },
+  "note": "represented 包含去重/合并后仍可追溯的规则；数量是静态规则覆盖，不是广告成功率。特征由注释和匹配式推断，可重叠。"
+}
