@@ -58,7 +58,7 @@
 
 - 生成检查：通过。
 - 测试：passed；47 个测试。
-- ICU 库：`/usr/lib/libicucore.dylib`。逐条编译 URL、头部和替换匹配式；QX 内部引擎与导入器未公开，ICU 不是实机验收。
+- ICU 库：`libicui18n.so.74`。逐条编译 URL、头部和替换匹配式；QX 内部引擎与导入器未公开，ICU 不是实机验收。
 - JSONJQ：用系统 jq 编译不可执行分支；保留全部能编译的源 JSONJQ 功能，同条件表达式顺序组合。QX 内置 jq 的边界差异仍需实测。
 - JavaScript：下载完整文件、拒绝空响应/HTML/HTTP 错误，用 Node 解析语法；不执行第三方脚本，不证明 QX API、二进制响应、超时或 App 数据结构兼容。
 - 输出重新独立解析；重写中没有裸域名/IP分流，分流中没有 URL Rewrite；每个输出 hostname 关联具体有效 HTTPS 重写。
