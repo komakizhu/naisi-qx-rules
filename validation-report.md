@@ -19,19 +19,19 @@
 | 原版有效规则行（不含注释、空行、hostname） | 4383 |
 | 原版重写候选 | 1622 |
 | 原版分流候选（包括隔离的 User-Agent） | 2761 |
-| 输出唯一重写 | 1600 |
+| 输出唯一重写 | 1597 |
 | 输出唯一域名/IP分流 | 2667 |
 | 标准化后去重来源行 | 96 |
 | 合并到其他规则的来源行 | 1 |
 | 有修复说明的来源行 | 81 |
-| 隔离来源行 | 19 |
-| 可追溯保留来源行（输出+去重+合并） | 4364 |
+| 隔离来源行 | 22 |
+| 可追溯保留来源行（输出+去重+合并） | 4361 |
 | 上游 hostname 唯一项（含排除项） | 966 |
-| 输出有效 hostname 项 | 994 |
+| 输出有效 hostname 项 | 993 |
 | 补充的 hostname 项 | 74 |
-| 保留出处但未激活的上游 hostname 项 | 46 |
+| 保留出处但未激活的上游 hostname 项 | 47 |
 
-静态可追溯保留比例：4364/4383（99.57%）。这是源规则的可追溯比例，不是实测功能成功率。隔离的冲突行在原匹配位置仍可能有保留的首条规则。
+静态可追溯保留比例：4361/4383（99.50%）。这是源规则的可追溯比例，不是实测功能成功率。隔离的冲突行在原匹配位置仍可能有保留的首条规则。
 源规则总数 = 输出重写 + 输出分流 + 去重 + 合并 + 隔离；没有未交代去向的删除。
 
 ### 重写动作的保留对比
@@ -51,14 +51,14 @@
 | script-analyze-echo-response | 1 | 1 | 1 |
 | script-request-body | 1 | 1 | 1 |
 | script-request-header | 2 | 2 | 2 |
-| script-response-body | 211 | 211 | 211 |
+| script-response-body | 211 | 208 | 208 |
 | script-response-header | 1 | 1 | 1 |
 
 ## 校验结果与范围
 
 - 生成检查：通过。
-- 测试：passed；47 个测试。
-- ICU 库：`libicui18n.so.74`。逐条编译 URL、头部和替换匹配式；QX 内部引擎与导入器未公开，ICU 不是实机验收。
+- 测试：passed；48 个测试。
+- ICU 库：`/usr/lib/libicucore.dylib`。逐条编译 URL、头部和替换匹配式；QX 内部引擎与导入器未公开，ICU 不是实机验收。
 - JSONJQ：用系统 jq 编译不可执行分支；保留全部能编译的源 JSONJQ 功能，同条件表达式顺序组合。QX 内置 jq 的边界差异仍需实测。
 - JavaScript：下载完整文件、拒绝空响应/HTML/HTTP 错误，用 Node 解析语法；不执行第三方脚本，不证明 QX API、二进制响应、超时或 App 数据结构兼容。
 - 输出重新独立解析；重写中没有裸域名/IP分流，分流中没有 URL Rewrite；每个输出 hostname 关联具体有效 HTTPS 重写。
@@ -189,6 +189,42 @@
 证据：原版相同匹配式；QX 官方仓库 issue #43 记录首条响应重写行为（用户报告，非完整引擎规范）
 
 替代：逐 App 实测不同返回类型后决定是否替换 L843；本次不改变优先级
+
+### L2571 · 酷安
+
+```text
+^https?:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js
+```
+
+原因：按用户要求暂时停用酷安重写，排查网络环境检测；不再对 api.coolapk.com 做 MITM
+
+证据：用户提供的酷安提示将去广告、DNS、Hosts、代理列为可能原因，并反馈关闭 Quantumult X 后恢复；上游酷安分类对 api.coolapk.com 的首页、动态和帖子响应执行脚本修改。该证据说明存在关联风险，不能证明它是唯一原因。
+
+替代：确认酷安恢复后，若要重新启用去广告，先逐条验证规则；本次不恢复 api.coolapk.com 的 MITM。
+
+### L2572 · 酷安
+
+```text
+^https?:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8|init) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js
+```
+
+原因：按用户要求暂时停用酷安重写，排查网络环境检测；不再对 api.coolapk.com 做 MITM
+
+证据：用户提供的酷安提示将去广告、DNS、Hosts、代理列为可能原因，并反馈关闭 Quantumult X 后恢复；上游酷安分类对 api.coolapk.com 的首页、动态和帖子响应执行脚本修改。该证据说明存在关联风险，不能证明它是唯一原因。
+
+替代：确认酷安恢复后，若要重新启用去广告，先逐条验证规则；本次不恢复 api.coolapk.com 的 MITM。
+
+### L2573 · 酷安
+
+```text
+^https?:\/\/api\.coolapk\.com\/v6\/page\/dataList\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js
+```
+
+原因：按用户要求暂时停用酷安重写，排查网络环境检测；不再对 api.coolapk.com 做 MITM
+
+证据：用户提供的酷安提示将去广告、DNS、Hosts、代理列为可能原因，并反馈关闭 Quantumult X 后恢复；上游酷安分类对 api.coolapk.com 的首页、动态和帖子响应执行脚本修改。该证据说明存在关联风险，不能证明它是唯一原因。
+
+替代：确认酷安恢复后，若要重新启用去广告，先逐条验证规则；本次不恢复 api.coolapk.com 的 MITM。
 
 ### L2776 · 来疯
 
@@ -607,6 +643,7 @@ host-suffix, -normal-lq.zijieapi.com, reject
 | `m*.amap.com` | inactive | 没有可追溯的有效 HTTPS 重写，或属上游可选/排除范围；保留原声明但不启用 |
 | `gha.ghac.cn` | inactive | 没有可追溯的有效 HTTPS 重写，或属上游可选/排除范围；保留原声明但不启用 |
 | `jiucaigongshe.oss-cn-beijing.aliyuncs.com` | inactive | 没有可追溯的有效 HTTPS 重写，或属上游可选/排除范围；保留原声明但不启用 |
+| `api.coolapk.com` | inactive | 没有可追溯的有效 HTTPS 重写，或属上游可选/排除范围；保留原声明但不启用 |
 | `ebk.17u.cn` | inactive | 没有可追溯的有效 HTTPS 重写，或属上游可选/排除范围；保留原声明但不启用 |
 | `*.ubixioe.com` | inactive | 没有可追溯的有效 HTTPS 重写，或属上游可选/排除范围；保留原声明但不启用 |
 | `x.seeyouyima.com` | inactive | 没有可追溯的有效 HTTPS 重写，或属上游可选/排除范围；保留原声明但不启用 |
@@ -678,7 +715,6 @@ host-suffix, -normal-lq.zijieapi.com, reject
 | [1130] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/caixin/caixinAd.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/caixin/caixinAd.js) | 通过 | 1710 |  |
 | [6524] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cmschina/cmschina.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cmschina/cmschina.js) | 通过 | 408 |  |
 | [467, 468, 469, 470, 472, 474, 476, 478, 480, 482, 488, 492, 494, 3102, 3104, 3105, 3107, 3111, 3112, 3115, 6236, 6240, 6242, 6246, 6248, 6250] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cnftp.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cnftp.js) | 通过 | 31606 |  |
-| [2571, 2572, 2573] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js) | 通过 | 2473 |  |
 | [1400] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/dianyinglieshou.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/dianyinglieshou.js) | 通过 | 1137 |  |
 | [1349, 1350, 1351, 1352, 1353, 1355, 1356, 1357, 1358, 1360] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/didi/didiAds.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/didi/didiAds.js) | 通过 | 2745 |  |
 | [1710] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/fenbi.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/fenbi.js) | 通过 | 826 |  |
@@ -822,7 +858,9 @@ host-suffix, -normal-lq.zijieapi.com, reject
 | 2411 | 金山词霸 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
 | 2479 | 京东 | kept | 匹配式含登录/支付/订单/购物车/验证相关字样；关键词筛查，需实机确认是否只改广告字段 |
 | 2495 | 京东金融 | kept | 主机匹配式存在未转义的点，可能匹配其他字符；保留原意，不批量重写正则，需实机核对 |
-| 2571 | 酷安 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
+| 2571 | 酷安 | quarantined | 按用户要求暂时停用酷安重写，排查网络环境检测；不再对 api.coolapk.com 做 MITM |
+| 2572 | 酷安 | quarantined | 按用户要求暂时停用酷安重写，排查网络环境检测；不再对 api.coolapk.com 做 MITM |
+| 2573 | 酷安 | quarantined | 按用户要求暂时停用酷安重写，排查网络环境检测；不再对 api.coolapk.com 做 MITM |
 | 2586 | 酷狗音乐 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告；关键词会匹配任意包含该字符串的域名，作用范围较宽 |
 | 2587 | 酷狗音乐 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
 | 2588 | 酷狗音乐 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |

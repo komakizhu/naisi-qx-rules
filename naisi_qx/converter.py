@@ -26,6 +26,15 @@ REPLACEMENTS = {"request-header", "response-header", "request-body", "response-b
 SUPPORTED_REPLACEMENTS = REPLACEMENTS - {"response-header"}
 JQ_ACTIONS = {"jsonjq-request-body", "jsonjq-response-body"}
 REDIRECTS = {"302", "307"}
+COOLAPK_EXCLUSION = {
+    "reason": "按用户要求暂时停用酷安重写，排查网络环境检测；不再对 api.coolapk.com 做 MITM",
+    "evidence": (
+        "用户提供的酷安提示将去广告、DNS、Hosts、代理列为可能原因，并反馈关闭 Quantumult X 后恢复；"
+        "上游酷安分类对 api.coolapk.com 的首页、动态和帖子响应执行脚本修改。该证据说明存在关联风险，"
+        "不能证明它是唯一原因。"
+    ),
+    "alternative": "确认酷安恢复后，若要重新启用去广告，先逐条验证规则；本次不恢复 api.coolapk.com 的 MITM。",
+}
 REWRITE_RE = re.compile(r"^(\S+)\s+(?:(.*?)\s+)?(url(?:-and-header)?)\s+(\S+)(?:\s+(.*))?$", re.I)
 
 
@@ -348,7 +357,7 @@ def risk_notes(rule: Rule):
         notes.append("主机匹配式存在未转义的点，可能匹配其他字符；保留原意，不批量重写正则，需实机核对")
     if re.search(r"login|passport|captcha|verify|auth|pay|cashier|order|cart|checkout|trade", text, re.I):
         notes.append("匹配式含登录/支付/订单/购物车/验证相关字样；关键词筛查，需实机确认是否只改广告字段")
-    if re.search(r"recommend|feeds?|nextfresh|discover", text, re.I):
+    if rule.app != "酷安" and re.search(r"recommend|feeds?|nextfresh|discover", text, re.I):
         notes.append("可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告")
     if rule.kind == "filter" and rule.filter_type == "host-keyword":
         notes.append("关键词会匹配任意包含该字符串的域名，作用范围较宽")
@@ -430,6 +439,10 @@ class Conversion:
                         error = self.icu.error(before)
                         if error:
                             raise ConversionError(f"正文/头部正则编译失败：{error}")
+                    if rule.app.startswith("酷安") or "api.coolapk.com" in rule.pattern.lower():
+                        self.quarantine(rule, COOLAPK_EXCLUSION["reason"],
+                                        evidence=COOLAPK_EXCLUSION["evidence"],
+                                        alternative=COOLAPK_EXCLUSION["alternative"])
                 except (ConversionError, ValueError) as exc:
                     rule = Rule(no, raw, app, kind, hints=hints.copy(), context=context.copy())
                     alternative=(
@@ -613,10 +626,12 @@ class Conversion:
                     "保留排除含义：未输出相应宽泛通配符；仅输出有限正向主机" if token.startswith("-") else
                     "没有可追溯的有效 HTTPS 重写，或属上游可选/排除范围；保留原声明但不启用"})
 
-    def render(self, kind):
+    def render(self, kind, version=None):
         title = "奶思 QX 重写（官方原版自动转换）" if kind == "rewrite" else "奶思 QX 域名/IP 分流"
         out = [f"#!name={title}", "# 来源：fmz200/wool_scripts；转换产物，非作者原文件。",
                "# 规则顺序与分类沿用上游；出处、修复、隔离见 validation-report.md / rule-inventory.json。"]
+        if version:
+            out.append(f"# 规则版本：{version}")
         if kind == "rewrite":
             out += ["# 资源语法需要 Quantumult X 1.5.3 或以上（JSONJQ）；脚本运行仍须实机检查。",
                     "# 仅用于重写资源；不要当作完整主配置。", "# 彩云 echo-response 需要配套 Data 文件，见 README。"]

@@ -1,6 +1,7 @@
 #!name=奶思 QX 域名/IP 分流
 # 来源：fmz200/wool_scripts；转换产物，非作者原文件。
 # 规则顺序与分类沿用上游；出处、修复、隔离见 validation-report.md / rule-inventory.json。
+# 规则版本：0.0.1
 # 仅用于分流资源；策略 reject。已有 Cats 时先阅读 cats-comparison.md。
 # 上游元数据 #!name=广告拦截合集-重写
 # 上游元数据 #!desc=(支持约730款APP/小程序)针对部分APP和小程序广告进行拦截，某些APP要清除缓存或者重新安装拦截广告才会生效！

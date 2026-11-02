@@ -2,6 +2,8 @@
 
 从 [fmz200 官方原版](https://github.com/fmz200/wool_scripts/blob/main/QuantumultX/rewrite/rewrite.snippet)重新生成，保留开屏、弹窗、信息流、横幅及应用内脚本，分开交付重写和域名/IP分流。没有使用以往的 clean、compatible、v2 等修正版。**资源语法需要 QX 1.5.3 或以上；尚未经过完整 QX 实机验证。**
 
+当前规则版本：`0.0.1`。为排查酷安的“网络环境异常”提示，本版隔离了奶思原版中全部酷安重写脚本，并从有效 MITM 主机名中移除 `api.coolapk.com`；不影响其他 App 规则。酷安去广告暂时停用。
+
 ## 先用哪个文件
 
 | 文件 | 添加位置 | 建议 |

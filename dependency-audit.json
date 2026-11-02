@@ -884,36 +884,6 @@
     },
     "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cnftp.js"
   },
-  "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js": {
-    "bytes": 2473,
-    "cache_file": "14d1e419b620df50aa929bf16be4c8dcefd1513f9867d52757e91d885e31cd38.js",
-    "checked_at": "2026-11-02T01:46:50+00:00",
-    "content_type": "text/plain; charset=utf-8",
-    "delivery_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js",
-    "dynamic_code": false,
-    "etag": "\"b8c9493a2582321af5696985d6763556d92df48472572860ab37997b4fcaeca1\"",
-    "final_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js",
-    "kind": "script",
-    "ok": true,
-    "qx_api_signals": [
-      "$done",
-      "$request",
-      "$response"
-    ],
-    "runtime_fetch": false,
-    "sha256": "58002f35b6ed5dbcb277e4571f231cc5491d9cd2d04f72ad9c63d4b35b15c003",
-    "source_lines": [
-      2571,
-      2572,
-      2573
-    ],
-    "status": 200,
-    "syntax": {
-      "engine": "v22.23.4",
-      "ok": true
-    },
-    "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js"
-  },
   "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/dianyinglieshou.js": {
     "bytes": 1137,
     "cache_file": "8a4d8a86359999add3a3407878d4f26a6677a6bea38d1c580fc0ffdae3d8affb.js",

@@ -3373,8 +3373,7 @@
       "source": 7
     },
     "酷安": {
-      "kept": 3,
-      "represented": 3,
+      "quarantined": 3,
       "source": 3
     },
     "酷我音乐": {
@@ -3630,9 +3629,9 @@
       "source": 1346
     },
     "信息流/推荐": {
-      "kept": 116,
-      "quarantined": 2,
-      "represented": 116,
+      "kept": 115,
+      "quarantined": 3,
+      "represented": 115,
       "source": 118
     },
     "域名/IP拦截": {
@@ -3665,8 +3664,9 @@
       "source": 28
     },
     "脚本处理": {
-      "kept": 216,
-      "represented": 216,
+      "kept": 213,
+      "quarantined": 3,
+      "represented": 213,
       "source": 216
     }
   },

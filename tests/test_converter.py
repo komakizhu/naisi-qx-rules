@@ -324,18 +324,40 @@ class FullSourceTests(unittest.TestCase):
 
     def test_original_scripts_and_jsonjq_remain_represented(self):
         c=self.conversion
-        selected=[r for r in c.rules if r.action.startswith(('script-','jsonjq-'))]
+        selected=[r for r in c.rules if r.action.startswith(('script-','jsonjq-')) and r.app!='酷安']
         self.assertTrue(selected)
         self.assertTrue(all(r.status in {'kept','duplicate','merged'} for r in selected),
                         '脚本或 JSONJQ 出现未保留来源；必须审阅上游功能变化')
+
+    def test_coolapk_rules_and_mitm_are_disabled(self):
+        c=self.conversion
+        rules=[r for r in c.rules if r.app=='酷安']
+        self.assertTrue(rules)
+        self.assertTrue(all(r.status=='quarantined' for r in rules))
+        self.assertTrue(all('coolapk' in r.raw.lower() for r in rules))
+        self.assertTrue(all(not any('闲鱼' in risk for risk in r.risks) for r in rules))
+        self.assertFalse(any('coolapk' in host for host in c.hosts))
+        output=c.render('rewrite')
+        active=[line for line in output.splitlines() if line.strip() and not line.lstrip().startswith(('#',';','//'))]
+        self.assertFalse(any('coolapk' in line.lower() for line in active))
+        self.assertFalse(any(url.endswith('Scripts/coolapk.js') for url in c.dependency_urls()))
 
     def test_exported_candidate_is_parseable_and_audited(self):
         rewrite=self.root/'Naisi-QX-Rewrite.conf'
         if not rewrite.exists():
             self.skipTest('尚未生成候选文件')
         self.assertEqual(validate_outputs(self.conversion,rewrite.read_text(),(self.root/'Naisi-QX-Filter.list').read_text()),[])
+        project_root=Path(__file__).resolve().parents[1]
+        version=(project_root/'VERSION').read_text().strip()
+        self.assertIn(f'# 规则版本：{version}',rewrite.read_text())
         inventory=json.loads((self.root/'rule-inventory.json').read_text())
         self.assertEqual(len(inventory),len(self.conversion.rules))
+        coolapk=[r for r in inventory if r['app']=='酷安']
+        self.assertTrue(coolapk)
+        self.assertTrue(all(r['status']=='quarantined' and r['evidence'] for r in coolapk))
+        active=[line for line in rewrite.read_text().splitlines()
+                if line.strip() and not line.lstrip().startswith(('#',';','//'))]
+        self.assertFalse(any('coolapk' in line.lower() for line in active))
         for r in inventory:
             if r['status']!='kept':
                 self.assertTrue(r['raw'] and (r['references'] or r['evidence']))

@@ -3821,14 +3821,10 @@
     {
       "hostname": "api.coolapk.com",
       "origin": "upstream-global",
-      "reason": "关联有效 HTTPS 重写",
+      "reason": "没有可追溯的有效 HTTPS 重写，或属上游可选/排除范围；保留原声明但不启用",
       "source_declared": true,
-      "source_lines": [
-        2571,
-        2572,
-        2573
-      ],
-      "status": "active"
+      "source_lines": [],
+      "status": "inactive"
     },
     {
       "hostname": "res.kfc.com.cn",
@@ -16568,33 +16564,6 @@
         "pocketuni.net"
       ],
       "line": 2555,
-      "reason": "已关联原声明或有限主机名",
-      "status": "mapped"
-    },
-    {
-      "app": "酷安",
-      "hosts": [
-        "api.coolapk.com"
-      ],
-      "line": 2571,
-      "reason": "已关联原声明或有限主机名",
-      "status": "mapped"
-    },
-    {
-      "app": "酷安",
-      "hosts": [
-        "api.coolapk.com"
-      ],
-      "line": 2572,
-      "reason": "已关联原声明或有限主机名",
-      "status": "mapped"
-    },
-    {
-      "app": "酷安",
-      "hosts": [
-        "api.coolapk.com"
-      ],
-      "line": 2573,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },

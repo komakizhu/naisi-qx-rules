@@ -46591,7 +46591,7 @@
   },
   {
     "action": "script-response-body",
-    "alternative": "",
+    "alternative": "确认酷安恢复后，若要重新启用去广告，先逐条验证规则；本次不恢复 api.coolapk.com 的 MITM。",
     "app": "酷安",
     "argument": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js",
     "context": [
@@ -46600,7 +46600,7 @@
       "# 广告联盟已包含",
       "# ^https?:\\/\\/api\\.coolapk\\.com\\/v6\\/search\\?.*type=hotSearch url reject-dict"
     ],
-    "evidence": "",
+    "evidence": "用户提供的酷安提示将去广告、DNS、Hosts、代理列为可能原因，并反馈关闭 Quantumult X 后恢复；上游酷安分类对 api.coolapk.com 的首页、动态和帖子响应执行脚本修改。该证据说明存在关联风险，不能证明它是唯一原因。",
     "features": [
       "信息流/推荐",
       "脚本处理"
@@ -46611,30 +46611,28 @@
     "hints": [
       "api.coolapk.com"
     ],
-    "hostname_refs": [
-      "api.coolapk.com"
-    ],
+    "hostname_refs": [],
     "kind": "rewrite",
     "line": 2571,
     "operator": "url",
     "optional": false,
-    "output": "^https?:\\/\\/api\\.coolapk\\.com\\/v6\\/feed\\/(detail|replyList)\\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js",
+    "output": "",
     "pattern": "^https?:\\/\\/api\\.coolapk\\.com\\/v6\\/feed\\/(detail|replyList)\\?",
     "raw": "^https?:\\/\\/api\\.coolapk\\.com\\/v6\\/feed\\/(detail|replyList)\\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js",
     "references": [],
     "risks": [
-      "可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告"
+      "按用户要求暂时停用酷安重写，排查网络环境检测；不再对 api.coolapk.com 做 MITM"
     ],
-    "status": "kept",
+    "status": "quarantined",
     "value": ""
   },
   {
     "action": "script-response-body",
-    "alternative": "",
+    "alternative": "确认酷安恢复后，若要重新启用去广告，先逐条验证规则；本次不恢复 api.coolapk.com 的 MITM。",
     "app": "酷安",
     "argument": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js",
     "context": [],
-    "evidence": "",
+    "evidence": "用户提供的酷安提示将去广告、DNS、Hosts、代理列为可能原因，并反馈关闭 Quantumult X 后恢复；上游酷安分类对 api.coolapk.com 的首页、动态和帖子响应执行脚本修改。该证据说明存在关联风险，不能证明它是唯一原因。",
     "features": [
       "脚本处理"
     ],
@@ -46644,28 +46642,28 @@
     "hints": [
       "api.coolapk.com"
     ],
-    "hostname_refs": [
-      "api.coolapk.com"
-    ],
+    "hostname_refs": [],
     "kind": "rewrite",
     "line": 2572,
     "operator": "url",
     "optional": false,
-    "output": "^https?:\\/\\/api\\.coolapk\\.com\\/v6\\/main\\/(dataList|indexV8|init) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js",
+    "output": "",
     "pattern": "^https?:\\/\\/api\\.coolapk\\.com\\/v6\\/main\\/(dataList|indexV8|init)",
     "raw": "^https?:\\/\\/api\\.coolapk\\.com\\/v6\\/main\\/(dataList|indexV8|init) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js",
     "references": [],
-    "risks": [],
-    "status": "kept",
+    "risks": [
+      "按用户要求暂时停用酷安重写，排查网络环境检测；不再对 api.coolapk.com 做 MITM"
+    ],
+    "status": "quarantined",
     "value": ""
   },
   {
     "action": "script-response-body",
-    "alternative": "",
+    "alternative": "确认酷安恢复后，若要重新启用去广告，先逐条验证规则；本次不恢复 api.coolapk.com 的 MITM。",
     "app": "酷安",
     "argument": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js",
     "context": [],
-    "evidence": "",
+    "evidence": "用户提供的酷安提示将去广告、DNS、Hosts、代理列为可能原因，并反馈关闭 Quantumult X 后恢复；上游酷安分类对 api.coolapk.com 的首页、动态和帖子响应执行脚本修改。该证据说明存在关联风险，不能证明它是唯一原因。",
     "features": [
       "脚本处理"
     ],
@@ -46675,19 +46673,19 @@
     "hints": [
       "api.coolapk.com"
     ],
-    "hostname_refs": [
-      "api.coolapk.com"
-    ],
+    "hostname_refs": [],
     "kind": "rewrite",
     "line": 2573,
     "operator": "url",
     "optional": false,
-    "output": "^https?:\\/\\/api\\.coolapk\\.com\\/v6\\/page\\/dataList\\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js",
+    "output": "",
     "pattern": "^https?:\\/\\/api\\.coolapk\\.com\\/v6\\/page\\/dataList\\?",
     "raw": "^https?:\\/\\/api\\.coolapk\\.com\\/v6\\/page\\/dataList\\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js",
     "references": [],
-    "risks": [],
-    "status": "kept",
+    "risks": [
+      "按用户要求暂时停用酷安重写，排查网络环境检测；不再对 api.coolapk.com 做 MITM"
+    ],
+    "status": "quarantined",
     "value": ""
   },
   {

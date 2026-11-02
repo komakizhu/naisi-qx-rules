@@ -5,11 +5,12 @@ import json
 import logging
 import os
 from pathlib import Path
+import re
 import shutil
 import subprocess
 import tempfile
 
-from .converter import Conversion, ConversionError, cats_compare, validate_outputs
+from .converter import COOLAPK_EXCLUSION, Conversion, ConversionError, cats_compare, validate_outputs
 from .network import audit_dependencies, digest, download_source, get, utc_now
 from .reporting import coverage_report, cats_report, dumps, validation_report
 
@@ -98,7 +99,14 @@ def build_candidate(candidate: Path, *, offline=False, bootstrap=False, run_test
             logging.info("live HTTP evidence: %s", dumps(fresh).strip())
             dependencies = stable_audits(fresh, previous)
         conversion = Conversion(text, dependencies=dependencies, data_cache=cache)
-        rewrite, filters = conversion.render("rewrite"), conversion.render("filter")
+        version_path = ROOT / "VERSION"
+        if not version_path.is_file():
+            raise ConversionError("缺少 VERSION 文件，无法确定本次生成版本")
+        project_version = version_path.read_text(encoding="utf-8").strip()
+        if not re.fullmatch(r"\d+\.\d+\.\d+", project_version):
+            raise ConversionError("VERSION 必须是 MAJOR.MINOR.PATCH 格式")
+        rewrite = conversion.render("rewrite", version=project_version)
+        filters = conversion.render("filter", version=project_version)
         errors = validate_outputs(conversion, rewrite, filters) + conversion.gate_errors
         comparison = cats_compare(conversion.kept("filter"), (work / "upstream/cats-qx.conf").read_text())
         if comparison["cats_parse_errors"]:
@@ -107,7 +115,9 @@ def build_candidate(candidate: Path, *, offline=False, bootstrap=False, run_test
         baseline = json.loads(baseline_file.read_text()) if baseline_file.exists() else []
         baseline_quarantine = {x["raw"].strip() for x in baseline if x["status"] == "quarantined"}
         for rule in conversion.rules:
-            if rule.status == "quarantined" and rule.raw.strip() not in baseline_quarantine and not bootstrap:
+            intentional_coolapk_exclusion = COOLAPK_EXCLUSION["reason"] in rule.risks
+            if (rule.status == "quarantined" and rule.raw.strip() not in baseline_quarantine
+                    and not intentional_coolapk_exclusion and not bootstrap):
                 errors.append(f"新增隔离 L{rule.line}，需先审阅候选报告；保留当前有效版本")
         if not baseline and not bootstrap:
             errors.append("首次生成须显式使用 --bootstrap 接受已审阅隔离；后续更新无需此参数")
@@ -134,7 +144,6 @@ def build_candidate(candidate: Path, *, offline=False, bootstrap=False, run_test
             proc = subprocess.run(["python3", "-m", "unittest", "discover", "-s", "tests", "-v"],
                                   cwd=ROOT, env=env, capture_output=True, text=True, timeout=240)
             output = proc.stdout + proc.stderr
-            import re
             match = re.search(r"Ran (\d+) tests?", output)
             results = {"status": "passed" if proc.returncode == 0 else "failed", "tests_run": int(match[1]) if match else 0,
                        "command": "python3 -m unittest discover -s tests -v", "returncode": proc.returncode}
@@ -147,7 +156,8 @@ def build_candidate(candidate: Path, *, offline=False, bootstrap=False, run_test
         write(work / "validation-report.md", validation_report(conversion, sources, dependencies, errors, results))
         write(work / "validation.json", dumps({"errors": errors, "stats": conversion.stats(), "tests": results}))
         paths = sorted(str(p.relative_to(work)) for p in work.rglob("*") if p.is_file())
-        manifest = {"format_version": 1, "valid": not errors, "stats": conversion.stats(),
+        manifest = {"format_version": 1, "project_version": project_version,
+                    "valid": not errors, "stats": conversion.stats(),
                     "files": {name: digest((work / name).read_bytes()) for name in paths}}
         write(work / "manifest.json", dumps(manifest))
         if candidate.exists():
@@ -172,7 +182,6 @@ def verify_candidate(candidate: Path):
             "validation.json", "test-results.json"}
         upstream_names = {"naisi-original.snippet", "cats-qx.conf", "naisi-LICENSE", "sources.json", *QX_FILES.values()}
         safe = name in allowed or (len(path.parts) == 2 and path.parts[0] == "upstream" and path.name in upstream_names)
-        import re
         safe = safe or bool(re.fullmatch(r"Data/Naisi-[0-9a-f]{12}\.json", name))
         if path.is_absolute() or ".." in path.parts or not safe:
             raise ConversionError("候选清单包含越界路径")
