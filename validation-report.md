@@ -5,8 +5,8 @@
 ## 来源与复现
 
 - 原版仓库：[fmz200/wool_scripts](https://github.com/fmz200/wool_scripts)。
-- 固定输入 commit：`4b7830670baf235ed945085cb926dc499cf619e0`；日期 `2026-10-30T16:03:23Z`。
-- 规则地址：[QuantumultX/rewrite/rewrite.snippet](https://raw.githubusercontent.com/fmz200/wool_scripts/4b7830670baf235ed945085cb926dc499cf619e0/QuantumultX/rewrite/rewrite.snippet)。
+- 固定输入 commit：`3bf100e5c1e68730a76dbb6d401a5913921db823`；日期 `2026-11-10T00:11:35Z`。
+- 规则地址：[QuantumultX/rewrite/rewrite.snippet](https://raw.githubusercontent.com/fmz200/wool_scripts/3bf100e5c1e68730a76dbb6d401a5913921db823/QuantumultX/rewrite/rewrite.snippet)。
 - 输入 SHA-256：`371ee2dee23f6aee74017f23e54d42a6d19a1b84f9fc7c63e2f70f59abbe4b9a`。完整原始字节保存在 [upstream/naisi-original.snippet](upstream/naisi-original.snippet)。
 - 转换器固定从上述官方路径拉取；不读取 clean、compatible、v2 或其他历史修正版。
 - 每个物理行见 [source-ledger.json](source-ledger.json)；每条规则的原文、App、状态、修复、出处见 [rule-inventory.json](rule-inventory.json)。
@@ -754,7 +754,7 @@ host-suffix, -normal-lq.zijieapi.com, reject
 | [3748, 3750] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/51job.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/51job.js) | 通过 | 1169 |  |
 | [6673] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/airchina.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/airchina.js) | 通过 | 808 |  |
 | [2337] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/alicdn.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/alicdn.js) | 通过 | 604 |  |
-| [1054, 1055, 1056, 1057] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js) | 通过 | 2295 |  |
+| [1054, 1055, 1056, 1057] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js) | 通过 | 2382 |  |
 | [2333] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ccblife.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ccblife.js) | 通过 | 3262 |  |
 | [1438, 1440, 1448] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ddxq.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ddxq.js) | 通过 | 1836 |  |
 | [1300, 1312] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dianping.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dianping.js) | 通过 | 2257 |  |
