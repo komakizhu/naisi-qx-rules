@@ -2051,13 +2051,13 @@
     "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/alicdn.js"
   },
   "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js": {
-    "bytes": 2382,
+    "bytes": 2295,
     "cache_file": "0827b63452210c00b031dd044fd260600ae399eca5ec23e376ff3207c8e26b1e.js",
-    "checked_at": "2026-11-10T03:39:06+00:00",
+    "checked_at": "2026-11-11T01:18:31+00:00",
     "content_type": "text/plain; charset=utf-8",
     "delivery_url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js",
     "dynamic_code": false,
-    "etag": "\"66b5731dde7d9180bc6ae08cb8247542f530997e943cf12ef079cb50335e03ce\"",
+    "etag": "\"8a03b8307b5a3d9e07aefdb2d68b9b7449b85c4a4c7ec378ee87a9db2979b5f4\"",
     "final_url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js",
     "kind": "script",
     "ok": true,
@@ -2067,7 +2067,7 @@
       "$response"
     ],
     "runtime_fetch": false,
-    "sha256": "26b6acfbe1e65cd74372d658d15869ee80cd9b04abb75f0e986eba4506fda82e",
+    "sha256": "17035efc2c7b5d367a5f6e70ca2e0f7f23aa342c9edb3bf044587e5ee073f261",
     "source_lines": [
       1054,
       1055,

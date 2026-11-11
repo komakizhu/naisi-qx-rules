@@ -1,21 +1,21 @@
 {
   "cats": {
     "branch": "main",
-    "bytes": 8321618,
-    "commit": "d3b1621c9e395a506788c12a7e21e4e518d259c4",
-    "commit_date": "2026-11-10T01:03:12Z",
+    "bytes": 8336297,
+    "commit": "0970ae7d31bf2be13daff4e9657a650e01040895",
+    "commit_date": "2026-11-10T22:43:20Z",
     "content_type": "text/plain; charset=utf-8",
-    "etag": "\"1c4c32dfc6b8b1ec70cf7deed440f226b19592b8fadc59ba5a729d576b9bf321\"",
-    "final_url": "https://raw.githubusercontent.com/Cats-Team/AdRules/d3b1621c9e395a506788c12a7e21e4e518d259c4/qx.conf",
+    "etag": "\"0b73033f58d983dbb7b3a5d2b11493162f772449e55b5658f7efd1da1a3a6cc5\"",
+    "final_url": "https://raw.githubusercontent.com/Cats-Team/AdRules/0970ae7d31bf2be13daff4e9657a650e01040895/qx.conf",
     "path": "qx.conf",
     "repo": "Cats-Team/AdRules",
-    "sha256": "ef12b169ee0621bf6bbd089333ca6dd3648caea80184a5b4033b3aa1d111f5f7",
+    "sha256": "40c31e867a9a86b2ef9978fb4364720b1986d1339480b269c074951a1d16354a",
     "status": 200,
     "tracking_url": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/qx.conf",
-    "url": "https://raw.githubusercontent.com/Cats-Team/AdRules/d3b1621c9e395a506788c12a7e21e4e518d259c4/qx.conf"
+    "url": "https://raw.githubusercontent.com/Cats-Team/AdRules/0970ae7d31bf2be13daff4e9657a650e01040895/qx.conf"
   },
   "files": {
-    "cats-qx.conf": "ef12b169ee0621bf6bbd089333ca6dd3648caea80184a5b4033b3aa1d111f5f7",
+    "cats-qx.conf": "40c31e867a9a86b2ef9978fb4364720b1986d1339480b269c074951a1d16354a",
     "naisi-LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
     "naisi-original.snippet": "371ee2dee23f6aee74017f23e54d42a6d19a1b84f9fc7c63e2f70f59abbe4b9a",
     "qx-import-rewrite.snippet": "2bd238342baaa08def2845b9c978868492ec947450bc0f2df3e67214d60ec3d3",

@@ -754,7 +754,7 @@ host-suffix, -normal-lq.zijieapi.com, reject
 | [3748, 3750] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/51job.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/51job.js) | 通过 | 1169 |  |
 | [6673] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/airchina.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/airchina.js) | 通过 | 808 |  |
 | [2337] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/alicdn.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/alicdn.js) | 通过 | 604 |  |
-| [1054, 1055, 1056, 1057] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js) | 通过 | 2382 |  |
+| [1054, 1055, 1056, 1057] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js) | 通过 | 2295 |  |
 | [2333] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ccblife.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ccblife.js) | 通过 | 3262 |  |
 | [1438, 1440, 1448] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ddxq.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ddxq.js) | 通过 | 1836 |  |
 | [1300, 1312] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dianping.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dianping.js) | 通过 | 2257 |  |
