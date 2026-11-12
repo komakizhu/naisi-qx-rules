@@ -1863,9 +1863,9 @@
       "source": 4
     },
     "彩云天气": {
-      "kept": 2,
-      "represented": 2,
-      "source": 2
+      "kept": 3,
+      "represented": 3,
+      "source": 3
     },
     "得物": {
       "kept": 2,
@@ -3623,10 +3623,10 @@
     },
     "URL拦截/重定向": {
       "duplicate": 4,
-      "kept": 1325,
+      "kept": 1326,
       "quarantined": 17,
-      "represented": 1329,
-      "source": 1346
+      "represented": 1330,
+      "source": 1347
     },
     "信息流/推荐": {
       "kept": 115,
@@ -3642,21 +3642,21 @@
       "source": 2761
     },
     "开屏": {
-      "kept": 119,
+      "kept": 204,
       "merged": 1,
-      "quarantined": 4,
-      "represented": 120,
-      "source": 124
+      "quarantined": 5,
+      "represented": 205,
+      "source": 210
     },
     "弹窗": {
+      "kept": 95,
+      "represented": 95,
+      "source": 95
+    },
+    "横幅": {
       "kept": 76,
       "represented": 76,
       "source": 76
-    },
-    "横幅": {
-      "kept": 65,
-      "represented": 65,
-      "source": 65
     },
     "正文/头部替换": {
       "kept": 28,
