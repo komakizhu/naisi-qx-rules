@@ -1,6 +1,6 @@
 # 与 Cats-Team AdRules 的差集
 
-奶思唯一域名/IP规则 2667 条；Cats 解析到 210371 条。
+奶思唯一域名/IP规则 2667 条；Cats 解析到 210500 条。
 完全相同 884 条；被 Cats 的其他单条规则完整覆盖 601 条；未证明完整覆盖的剩余候选 1182 条。
 已证明覆盖比例：1485/2667（55.68%）。
 
@@ -10,7 +10,7 @@ residual 是未被单条 Cats 规则证明完整覆盖的候选，不是新增�
 
 建议先保留现有 Cats + Google 重定向，只增加奶思重写。剩余分流候选并非可以忽略的数量，但尚无流量命中和误杀实测，不能仅凭数量建议叠加全量分流。如重写后仍有广告，可按使用的 App 选测差集文件；全量分流与差集选一个。
 
-Cats 来源：[e3160b9b0554a4911b88f54a524d9ca0389ee13e](https://raw.githubusercontent.com/Cats-Team/AdRules/e3160b9b0554a4911b88f54a524d9ca0389ee13e/qx.conf)。
+Cats 来源：[70cb4a4d7940180bcf0c443562cbc63bc198bc0e](https://raw.githubusercontent.com/Cats-Team/AdRules/70cb4a4d7940180bcf0c443562cbc63bc198bc0e/qx.conf)。
 算法：先标准化类型/大小写/CIDR；再比较完全相同规则、域名父后缀、包含的 host-keyword 与同地址族的包含网段。不把更窄的 Cats 子域名误判为覆盖奶思整个父域，不把 host 与 host-suffix 当作同一种匹配范围。
 
 Cats 重复规则 0 条；解析异常 0 条。
