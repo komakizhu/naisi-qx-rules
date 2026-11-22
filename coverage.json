@@ -2807,10 +2807,10 @@
       "source": 2
     },
     "知乎": {
-      "kept": 43,
+      "kept": 42,
       "quarantined": 1,
-      "represented": 43,
-      "source": 44
+      "represented": 42,
+      "source": 43
     },
     "神舟汽车": {
       "kept": 1,
@@ -3636,10 +3636,10 @@
     },
     "域名/IP拦截": {
       "duplicate": 92,
-      "kept": 2667,
+      "kept": 2666,
       "quarantined": 2,
-      "represented": 2759,
-      "source": 2761
+      "represented": 2758,
+      "source": 2760
     },
     "开屏": {
       "kept": 204,

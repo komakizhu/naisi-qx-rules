@@ -100,7 +100,7 @@
       "source_lines": [
         172,
         173,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -133,7 +133,7 @@
       "source_declared": true,
       "source_lines": [
         199,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -1891,7 +1891,7 @@
       "source_lines": [
         1475,
         1478,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -1974,7 +1974,7 @@
       "source_declared": true,
       "source_lines": [
         1427,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -1985,7 +1985,7 @@
       "source_declared": true,
       "source_lines": [
         1431,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -2090,7 +2090,7 @@
       "source_lines": [
         1547,
         1548,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -2288,11 +2288,11 @@
         1668,
         1669,
         1670,
+        6977,
         6978,
-        6979,
+        6982,
         6983,
-        6984,
-        6985
+        6984
       ],
       "status": "active"
     },
@@ -2357,10 +2357,10 @@
         1668,
         1669,
         1670,
-        6798,
+        6797,
+        6977,
         6978,
-        6979,
-        6982
+        6981
       ],
       "status": "active"
     },
@@ -2403,9 +2403,9 @@
         1668,
         1669,
         1670,
+        6977,
         6978,
-        6979,
-        6982
+        6981
       ],
       "status": "active"
     },
@@ -2527,7 +2527,7 @@
       "source_declared": true,
       "source_lines": [
         1734,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -2708,7 +2708,7 @@
       "source_declared": true,
       "source_lines": [
         1846,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -2762,7 +2762,7 @@
         1856,
         2744,
         3846,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -2872,7 +2872,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -3427,7 +3427,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -3505,7 +3505,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -3558,7 +3558,7 @@
       "source_declared": true,
       "source_lines": [
         2533,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -4067,7 +4067,7 @@
       "source_declared": true,
       "source_lines": [
         2692,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -4078,7 +4078,7 @@
       "source_declared": true,
       "source_lines": [
         2692,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -4622,7 +4622,7 @@
       "source_declared": true,
       "source_lines": [
         2925,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -4655,7 +4655,7 @@
       "source_lines": [
         3318,
         3319,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -4923,7 +4923,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -5354,7 +5354,7 @@
       "source_declared": true,
       "source_lines": [
         3533,
-        6995
+        6994
       ],
       "status": "active"
     },
@@ -5447,7 +5447,7 @@
         3578,
         3579,
         3580,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -5666,7 +5666,7 @@
         3903,
         3904,
         4536,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -6364,7 +6364,7 @@
       "source_declared": true,
       "source_lines": [
         4084,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -6430,11 +6430,11 @@
         4131,
         4137,
         4143,
+        6977,
         6978,
-        6979,
+        6982,
         6983,
-        6984,
-        6985
+        6984
       ],
       "status": "active"
     },
@@ -6574,7 +6574,7 @@
       "source_declared": true,
       "source_lines": [
         4274,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -6604,7 +6604,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -7000,7 +7000,7 @@
       "source_declared": true,
       "source_lines": [
         4533,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -7012,7 +7012,7 @@
       "source_lines": [
         4534,
         4535,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -7043,7 +7043,7 @@
       "source_declared": true,
       "source_lines": [
         4539,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -7065,7 +7065,7 @@
       "source_lines": [
         4541,
         4542,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -7076,7 +7076,7 @@
       "source_declared": true,
       "source_lines": [
         4543,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -7242,7 +7242,7 @@
       "source_declared": true,
       "source_lines": [
         4662,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -7254,7 +7254,7 @@
       "source_lines": [
         4673,
         4674,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -7460,7 +7460,7 @@
       "source_declared": true,
       "source_lines": [
         4754,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -8130,7 +8130,7 @@
       "source_declared": true,
       "source_lines": [
         5331,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -8442,7 +8442,7 @@
       "source_declared": true,
       "source_lines": [
         5792,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -8537,7 +8537,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -9271,7 +9271,7 @@
       "source_declared": true,
       "source_lines": [
         6119,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -9333,7 +9333,7 @@
       "source_declared": true,
       "source_lines": [
         6256,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -9611,7 +9611,7 @@
       "source_declared": true,
       "source_lines": [
         6252,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -9801,7 +9801,7 @@
         6488,
         6489,
         6490,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -9821,7 +9821,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6789
+        6788
       ],
       "status": "active"
     },
@@ -9831,7 +9831,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6851
+        6850
       ],
       "status": "active"
     },
@@ -9849,11 +9849,11 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
+        6977,
         6978,
-        6979,
+        6982,
         6983,
-        6984,
-        6985
+        6984
       ],
       "status": "active"
     },
@@ -9863,11 +9863,11 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
+        6977,
         6978,
-        6979,
+        6982,
         6983,
-        6984,
-        6985
+        6984
       ],
       "status": "active"
     },
@@ -9877,12 +9877,12 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6798,
+        6797,
+        6977,
         6978,
-        6979,
+        6982,
         6983,
-        6984,
-        6985
+        6984
       ],
       "status": "active"
     },
@@ -9892,12 +9892,12 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6798,
+        6797,
+        6977,
         6978,
-        6979,
+        6982,
         6983,
-        6984,
-        6985
+        6984
       ],
       "status": "active"
     },
@@ -9907,7 +9907,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6855
+        6854
       ],
       "status": "active"
     },
@@ -9917,7 +9917,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6765
+        6764
       ],
       "status": "active"
     },
@@ -9927,7 +9927,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6895
+        6894
       ],
       "status": "active"
     },
@@ -9937,8 +9937,8 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6897,
-        6898
+        6896,
+        6897
       ],
       "status": "active"
     },
@@ -9948,7 +9948,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6821
+        6820
       ],
       "status": "active"
     },
@@ -9988,9 +9988,9 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
+        6835,
         6836,
-        6837,
-        6839
+        6838
       ],
       "status": "active"
     },
@@ -10000,7 +10000,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6839
+        6838
       ],
       "status": "active"
     },
@@ -10010,8 +10010,8 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6843,
-        6844
+        6842,
+        6843
       ],
       "status": "active"
     },
@@ -10021,7 +10021,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6847
+        6846
       ],
       "status": "active"
     },
@@ -10031,7 +10031,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6846
+        6845
       ],
       "status": "active"
     },
@@ -10041,7 +10041,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6845
+        6844
       ],
       "status": "active"
     },
@@ -10051,7 +10051,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6760
+        6759
       ],
       "status": "active"
     },
@@ -10061,7 +10061,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6761
+        6760
       ],
       "status": "active"
     },
@@ -10071,9 +10071,9 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
+        6794,
         6795,
-        6796,
-        6797
+        6796
       ],
       "status": "active"
     },
@@ -10083,7 +10083,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6799
+        6798
       ],
       "status": "active"
     },
@@ -10093,7 +10093,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6800
+        6799
       ],
       "status": "active"
     },
@@ -10103,7 +10103,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6830
+        6829
       ],
       "status": "active"
     },
@@ -10113,11 +10113,11 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6808,
-        6810,
-        6812,
-        6814,
-        6816
+        6807,
+        6809,
+        6811,
+        6813,
+        6815
       ],
       "status": "active"
     },
@@ -10127,7 +10127,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6749
+        6748
       ],
       "status": "active"
     },
@@ -10307,7 +10307,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6719
+        6718
       ],
       "status": "active"
     },
@@ -10317,7 +10317,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6714
+        6713
       ],
       "status": "active"
     },
@@ -10327,6 +10327,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
+        6668,
         6669,
         6670,
         6671,
@@ -10335,21 +10336,20 @@
         6674,
         6675,
         6676,
-        6677,
+        6678,
         6679,
-        6680,
+        6681,
         6682,
-        6683,
+        6684,
         6685,
-        6686,
+        6688,
         6689,
         6690,
         6691,
         6692,
-        6693,
+        6695,
         6696,
-        6697,
-        6703
+        6702
       ],
       "status": "active"
     },
@@ -10359,13 +10359,13 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6687,
-        6694,
+        6686,
+        6693,
+        6703,
         6704,
         6705,
         6706,
-        6707,
-        6798
+        6797
       ],
       "status": "active"
     },
@@ -10375,8 +10375,8 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6698,
-        6699
+        6697,
+        6698
       ],
       "status": "active"
     },
@@ -10386,7 +10386,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6701
+        6700
       ],
       "status": "active"
     },
@@ -10396,7 +10396,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6708
+        6707
       ],
       "status": "active"
     },
@@ -10406,7 +10406,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6700
+        6699
       ],
       "status": "active"
     },
@@ -10416,7 +10416,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6923
+        6922
       ],
       "status": "active"
     },
@@ -10426,10 +10426,10 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
+        6880,
         6881,
         6882,
-        6883,
-        6884
+        6883
       ],
       "status": "active"
     },
@@ -10439,8 +10439,8 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6908,
-        6910
+        6907,
+        6909
       ],
       "status": "active"
     },
@@ -10450,7 +10450,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6914
+        6913
       ],
       "status": "active"
     },
@@ -10460,7 +10460,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6918
+        6917
       ],
       "status": "active"
     },
@@ -10470,7 +10470,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6927
+        6926
       ],
       "status": "active"
     },
@@ -10480,7 +10480,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6932
+        6931
       ],
       "status": "active"
     },
@@ -10490,13 +10490,13 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
+        6935,
         6936,
         6937,
-        6938,
+        6939,
         6940,
-        6941,
-        6943,
-        6944
+        6942,
+        6943
       ],
       "status": "active"
     },
@@ -10506,8 +10506,8 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6798,
-        6948
+        6797,
+        6947
       ],
       "status": "active"
     },
@@ -10517,8 +10517,8 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6989,
-        6990
+        6988,
+        6989
       ],
       "status": "active"
     },
@@ -10528,7 +10528,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        6994
+        6993
       ],
       "status": "active"
     },
@@ -10538,7 +10538,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        7002
+        7001
       ],
       "status": "active"
     },
@@ -10548,7 +10548,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": true,
       "source_lines": [
-        7002
+        7001
       ],
       "status": "active"
     },
@@ -10580,7 +10580,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": false,
       "source_lines": [
-        6981
+        6980
       ],
       "status": "active"
     },
@@ -11335,7 +11335,7 @@
       "reason": "关联有效 HTTPS 重写",
       "source_declared": false,
       "source_lines": [
-        6709
+        6708
       ],
       "status": "active"
     }
@@ -25161,6 +25161,15 @@
       "hosts": [
         "api.zhihu.com"
       ],
+      "line": 6668,
+      "reason": "已关联原声明或有限主机名",
+      "status": "mapped"
+    },
+    {
+      "app": "知乎",
+      "hosts": [
+        "api.zhihu.com"
+      ],
       "line": 6669,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
@@ -25233,7 +25242,7 @@
       "hosts": [
         "api.zhihu.com"
       ],
-      "line": 6677,
+      "line": 6678,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25251,7 +25260,7 @@
       "hosts": [
         "api.zhihu.com"
       ],
-      "line": 6680,
+      "line": 6681,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25269,7 +25278,7 @@
       "hosts": [
         "api.zhihu.com"
       ],
-      "line": 6683,
+      "line": 6684,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25285,7 +25294,7 @@
     {
       "app": "知乎",
       "hosts": [
-        "api.zhihu.com"
+        "www.zhihu.com"
       ],
       "line": 6686,
       "reason": "已关联原声明或有限主机名",
@@ -25294,9 +25303,9 @@
     {
       "app": "知乎",
       "hosts": [
-        "www.zhihu.com"
+        "api.zhihu.com"
       ],
-      "line": 6687,
+      "line": 6688,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25339,7 +25348,7 @@
     {
       "app": "知乎",
       "hosts": [
-        "api.zhihu.com"
+        "www.zhihu.com"
       ],
       "line": 6693,
       "reason": "已关联原声明或有限主机名",
@@ -25348,9 +25357,9 @@
     {
       "app": "知乎",
       "hosts": [
-        "www.zhihu.com"
+        "api.zhihu.com"
       ],
-      "line": 6694,
+      "line": 6695,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25366,7 +25375,7 @@
     {
       "app": "知乎",
       "hosts": [
-        "api.zhihu.com"
+        "appcloud2.zhihu.com"
       ],
       "line": 6697,
       "reason": "已关联原声明或有限主机名",
@@ -25384,7 +25393,7 @@
     {
       "app": "知乎",
       "hosts": [
-        "appcloud2.zhihu.com"
+        "link.zhihu.com"
       ],
       "line": 6699,
       "reason": "已关联原声明或有限主机名",
@@ -25393,7 +25402,7 @@
     {
       "app": "知乎",
       "hosts": [
-        "link.zhihu.com"
+        "m-cloud.zhihu.com"
       ],
       "line": 6700,
       "reason": "已关联原声明或有限主机名",
@@ -25402,16 +25411,16 @@
     {
       "app": "知乎",
       "hosts": [
-        "m-cloud.zhihu.com"
+        "api.zhihu.com"
       ],
-      "line": 6701,
+      "line": 6702,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
     {
       "app": "知乎",
       "hosts": [
-        "api.zhihu.com"
+        "www.zhihu.com"
       ],
       "line": 6703,
       "reason": "已关联原声明或有限主机名",
@@ -25447,7 +25456,7 @@
     {
       "app": "知乎",
       "hosts": [
-        "www.zhihu.com"
+        "zhuanlan.zhihu.com"
       ],
       "line": 6707,
       "reason": "已关联原声明或有限主机名",
@@ -25456,18 +25465,9 @@
     {
       "app": "知乎",
       "hosts": [
-        "zhuanlan.zhihu.com"
-      ],
-      "line": 6708,
-      "reason": "已关联原声明或有限主机名",
-      "status": "mapped"
-    },
-    {
-      "app": "知乎",
-      "hosts": [
         "zhstatic.zhihu.com"
       ],
-      "line": 6709,
+      "line": 6708,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25476,7 +25476,7 @@
       "hosts": [
         "preprod.cdzghome.com"
       ],
-      "line": 6714,
+      "line": 6713,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25485,7 +25485,7 @@
       "hosts": [
         "zua.zhidiantianxia.cn"
       ],
-      "line": 6719,
+      "line": 6718,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25494,7 +25494,7 @@
       "hosts": [
         "m.ctrip.com"
       ],
-      "line": 6724,
+      "line": 6723,
       "reason": "上游可选/证书限制提示；不自动扩张 MITM 范围",
       "status": "optional"
     },
@@ -25503,7 +25503,7 @@
       "hosts": [
         "apicloud.zol.com.cn"
       ],
-      "line": 6749,
+      "line": 6748,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25512,7 +25512,7 @@
       "hosts": [
         "cloud.189.cn"
       ],
-      "line": 6760,
+      "line": 6759,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25521,7 +25521,7 @@
       "hosts": [
         "zt-app.go189.cn"
       ],
-      "line": 6761,
+      "line": 6760,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25530,7 +25530,7 @@
       "hosts": [
         "app.10099.com.cn"
       ],
-      "line": 6765,
+      "line": 6764,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25539,7 +25539,16 @@
       "hosts": [
         "m.airchina.com.cn"
       ],
-      "line": 6789,
+      "line": 6788,
+      "reason": "已关联原声明或有限主机名",
+      "status": "mapped"
+    },
+    {
+      "app": "中国联通",
+      "hosts": [
+        "m.client.10010.com"
+      ],
+      "line": 6794,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25558,15 +25567,6 @@
         "m.client.10010.com"
       ],
       "line": 6796,
-      "reason": "已关联原声明或有限主机名",
-      "status": "mapped"
-    },
-    {
-      "app": "中国联通",
-      "hosts": [
-        "m.client.10010.com"
-      ],
-      "line": 6797,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25617,7 +25617,7 @@
         "www.zhihu.com",
         "zjdr666.com"
       ],
-      "line": 6798,
+      "line": 6797,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25626,7 +25626,7 @@
       "hosts": [
         "m1.ad.10010.com"
       ],
-      "line": 6799,
+      "line": 6798,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25635,7 +25635,7 @@
       "hosts": [
         "res.mall.10010.cn"
       ],
-      "line": 6800,
+      "line": 6799,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25644,7 +25644,7 @@
       "hosts": [
         "zgrb.epicc.com.cn"
       ],
-      "line": 6808,
+      "line": 6807,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25653,7 +25653,7 @@
       "hosts": [
         "zgrb.epicc.com.cn"
       ],
-      "line": 6810,
+      "line": 6809,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25662,7 +25662,7 @@
       "hosts": [
         "zgrb.epicc.com.cn"
       ],
-      "line": 6812,
+      "line": 6811,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25671,7 +25671,7 @@
       "hosts": [
         "zgrb.epicc.com.cn"
       ],
-      "line": 6814,
+      "line": 6813,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25680,7 +25680,7 @@
       "hosts": [
         "zgrb.epicc.com.cn"
       ],
-      "line": 6816,
+      "line": 6815,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25689,7 +25689,7 @@
       "hosts": [
         "ecssmobile.e-chinalife.com"
       ],
-      "line": 6821,
+      "line": 6820,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25698,7 +25698,16 @@
       "hosts": [
         "e.weather.com.cn"
       ],
-      "line": 6830,
+      "line": 6829,
+      "reason": "已关联原声明或有限主机名",
+      "status": "mapped"
+    },
+    {
+      "app": "中国移动",
+      "hosts": [
+        "client.app.coc.10086.cn"
+      ],
+      "line": 6835,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25714,19 +25723,19 @@
     {
       "app": "中国移动",
       "hosts": [
-        "client.app.coc.10086.cn"
+        "client.app.coc.10086.cn",
+        "app.10086.cn"
       ],
-      "line": 6837,
+      "line": 6838,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
     {
-      "app": "中国移动",
+      "app": "中国移动云盘",
       "hosts": [
-        "client.app.coc.10086.cn",
-        "app.10086.cn"
+        "mcmm.caiyun.feixin.10086.cn"
       ],
-      "line": 6839,
+      "line": 6842,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25742,7 +25751,7 @@
     {
       "app": "中国移动云盘",
       "hosts": [
-        "mcmm.caiyun.feixin.10086.cn"
+        "middle.yun.139.com"
       ],
       "line": 6844,
       "reason": "已关联原声明或有限主机名",
@@ -25751,7 +25760,7 @@
     {
       "app": "中国移动云盘",
       "hosts": [
-        "middle.yun.139.com"
+        "ad.mcloud.139.com"
       ],
       "line": 6845,
       "reason": "已关联原声明或有限主机名",
@@ -25760,18 +25769,9 @@
     {
       "app": "中国移动云盘",
       "hosts": [
-        "ad.mcloud.139.com"
-      ],
-      "line": 6846,
-      "reason": "已关联原声明或有限主机名",
-      "status": "mapped"
-    },
-    {
-      "app": "中国移动云盘",
-      "hosts": [
         "mrp.mcloud.139.com"
       ],
-      "line": 6847,
+      "line": 6846,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25780,7 +25780,7 @@
       "hosts": [
         "mlife.jf365.boc.cn"
       ],
-      "line": 6851,
+      "line": 6850,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25789,7 +25789,16 @@
       "hosts": [
         "xyz.cnki.net"
       ],
-      "line": 6855,
+      "line": 6854,
+      "reason": "已关联原声明或有限主机名",
+      "status": "mapped"
+    },
+    {
+      "app": "中通快递",
+      "hosts": [
+        "hdgateway.zto.com"
+      ],
+      "line": 6880,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25821,20 +25830,20 @@
       "status": "mapped"
     },
     {
-      "app": "中通快递",
+      "app": "中信银行",
       "hosts": [
-        "hdgateway.zto.com"
+        "wap.bank.ecitic.com"
       ],
-      "line": 6884,
+      "line": 6894,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
     {
       "app": "中信银行",
       "hosts": [
-        "wap.bank.ecitic.com"
+        "imcs.citicbank.com"
       ],
-      "line": 6895,
+      "line": 6896,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25848,20 +25857,11 @@
       "status": "mapped"
     },
     {
-      "app": "中信银行",
-      "hosts": [
-        "imcs.citicbank.com"
-      ],
-      "line": 6898,
-      "reason": "已关联原声明或有限主机名",
-      "status": "mapped"
-    },
-    {
       "app": "中银跨境GO",
       "hosts": [
         "openapi.boc.cn"
       ],
-      "line": 6903,
+      "line": 6902,
       "reason": "上游可选/证书限制提示；不自动扩张 MITM 范围",
       "status": "optional"
     },
@@ -25870,7 +25870,7 @@
       "hosts": [
         "minipro.95504.net"
       ],
-      "line": 6908,
+      "line": 6907,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25879,7 +25879,7 @@
       "hosts": [
         "minipro.95504.net"
       ],
-      "line": 6910,
+      "line": 6909,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25888,7 +25888,7 @@
       "hosts": [
         "sichuan.95504.net"
       ],
-      "line": 6914,
+      "line": 6913,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25897,7 +25897,7 @@
       "hosts": [
         "app.badmintoncn.com"
       ],
-      "line": 6918,
+      "line": 6917,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25906,7 +25906,7 @@
       "hosts": [
         "direct.z-bank.com"
       ],
-      "line": 6923,
+      "line": 6922,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25915,7 +25915,7 @@
       "hosts": [
         "fastbuyer.zbj.com"
       ],
-      "line": 6927,
+      "line": 6926,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25924,7 +25924,16 @@
       "hosts": [
         "z.onewo.com"
       ],
-      "line": 6932,
+      "line": 6931,
+      "reason": "已关联原声明或有限主机名",
+      "status": "mapped"
+    },
+    {
+      "app": "转转",
+      "hosts": [
+        "app.zhuanzhuan.com"
+      ],
+      "line": 6935,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25951,7 +25960,7 @@
       "hosts": [
         "app.zhuanzhuan.com"
       ],
-      "line": 6938,
+      "line": 6939,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25969,7 +25978,7 @@
       "hosts": [
         "app.zhuanzhuan.com"
       ],
-      "line": 6941,
+      "line": 6942,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -25983,20 +25992,27 @@
       "status": "mapped"
     },
     {
-      "app": "转转",
-      "hosts": [
-        "app.zhuanzhuan.com"
-      ],
-      "line": 6944,
-      "reason": "已关联原声明或有限主机名",
-      "status": "mapped"
-    },
-    {
       "app": "追剧达人",
       "hosts": [
         "zjdr666.com"
       ],
-      "line": 6948,
+      "line": 6947,
+      "reason": "已关联原声明或有限主机名",
+      "status": "mapped"
+    },
+    {
+      "app": "字节跳动",
+      "hosts": [
+        "gurd.snssdk.com",
+        "i-lq.snssdk.com",
+        "*.pstatp.com",
+        "amemv.com",
+        "musical.com",
+        "snssdk.com",
+        "tiktokv.com",
+        "dsp.toutiao.com"
+      ],
+      "line": 6977,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -26019,25 +26035,9 @@
     {
       "app": "字节跳动",
       "hosts": [
-        "gurd.snssdk.com",
-        "i-lq.snssdk.com",
-        "*.pstatp.com",
-        "amemv.com",
-        "musical.com",
-        "snssdk.com",
-        "tiktokv.com",
-        "dsp.toutiao.com"
-      ],
-      "line": 6979,
-      "reason": "已关联原声明或有限主机名",
-      "status": "mapped"
-    },
-    {
-      "app": "字节跳动",
-      "hosts": [
         "*.amemv.com"
       ],
-      "line": 6981,
+      "line": 6980,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -26046,6 +26046,20 @@
       "hosts": [
         "gurd.snssdk.com",
         "i-lq.snssdk.com"
+      ],
+      "line": 6981,
+      "reason": "已关联原声明或有限主机名",
+      "status": "mapped"
+    },
+    {
+      "app": "字节跳动",
+      "hosts": [
+        "*.pstatp.com",
+        "amemv.com",
+        "musical.com",
+        "snssdk.com",
+        "tiktokv.com",
+        "dsp.toutiao.com"
       ],
       "line": 6982,
       "reason": "已关联原声明或有限主机名",
@@ -26080,16 +26094,11 @@
       "status": "mapped"
     },
     {
-      "app": "字节跳动",
+      "app": "自如",
       "hosts": [
-        "*.pstatp.com",
-        "amemv.com",
-        "musical.com",
-        "snssdk.com",
-        "tiktokv.com",
-        "dsp.toutiao.com"
+        "ztoread.ziroom.com"
       ],
-      "line": 6985,
+      "line": 6988,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -26103,20 +26112,11 @@
       "status": "mapped"
     },
     {
-      "app": "自如",
-      "hosts": [
-        "ztoread.ziroom.com"
-      ],
-      "line": 6990,
-      "reason": "已关联原声明或有限主机名",
-      "status": "mapped"
-    },
-    {
       "app": "最右",
       "hosts": [
         "api.izuiyou.com"
       ],
-      "line": 6994,
+      "line": 6993,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -26125,7 +26125,7 @@
       "hosts": [
         "adapi.izuiyou.com"
       ],
-      "line": 6995,
+      "line": 6994,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     },
@@ -26135,7 +26135,7 @@
         "syh.zybang.com",
         "www.zybang.com"
       ],
-      "line": 7002,
+      "line": 7001,
       "reason": "已关联原声明或有限主机名",
       "status": "mapped"
     }

@@ -1,8 +1,8 @@
 # 与 Cats-Team AdRules 的差集
 
-奶思唯一域名/IP规则 2667 条；Cats 解析到 211952 条。
-完全相同 884 条；被 Cats 的其他单条规则完整覆盖 601 条；未证明完整覆盖的剩余候选 1182 条。
-已证明覆盖比例：1485/2667（55.68%）。
+奶思唯一域名/IP规则 2666 条；Cats 解析到 211994 条。
+完全相同 884 条；被 Cats 的其他单条规则完整覆盖 601 条；未证明完整覆盖的剩余候选 1181 条。
+已证明覆盖比例：1485/2666（55.70%）。
 
 residual 是未被单条 Cats 规则证明完整覆盖的候选，不是新增广告域名数；可能仍部分重叠。未比较 Cats 的 URL 重写或其他订阅。
 
@@ -10,7 +10,7 @@ residual 是未被单条 Cats 规则证明完整覆盖的候选，不是新增�
 
 建议先保留现有 Cats + Google 重定向，只增加奶思重写。剩余分流候选并非可以忽略的数量，但尚无流量命中和误杀实测，不能仅凭数量建议叠加全量分流。如重写后仍有广告，可按使用的 App 选测差集文件；全量分流与差集选一个。
 
-Cats 来源：[55c56be696e5f1043f867c9a4babb8b1d3b314da](https://raw.githubusercontent.com/Cats-Team/AdRules/55c56be696e5f1043f867c9a4babb8b1d3b314da/qx.conf)。
+Cats 来源：[192049177992ba6d14cbc2e823bd15f7499a4590](https://raw.githubusercontent.com/Cats-Team/AdRules/192049177992ba6d14cbc2e823bd15f7499a4590/qx.conf)。
 算法：先标准化类型/大小写/CIDR；再比较完全相同规则、域名父后缀、包含的 host-keyword 与同地址族的包含网段。不把更窄的 Cats 子域名误判为覆盖奶思整个父域，不把 host 与 host-suffix 当作同一种匹配范围。
 
 Cats 重复规则 0 条；解析异常 0 条。
@@ -1113,93 +1113,92 @@ Cats 重复规则 0 条；解析异常 0 条。
 | 6555 | Yahoo | `host, ads.yahoo.de, reject` |
 | 6643 | 真不卡 | `host-suffix, ttayy.cn, reject` |
 | 6659 | 知乎 | `host, appcloud.zhihu.com, reject` |
-| 6664 | 知乎 | `host, 118.89.204.198, reject` |
-| 6665 | 知乎 | `ip-cidr, 118.89.204.198/32, reject` |
-| 6666 | 知乎 | `ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject` |
-| 6727 | 中关村 | `host-suffix, apppv.zol.com.cn, reject` |
-| 6729 | 中关村 | `host-suffix, dynamic.zol.com.cn, reject` |
-| 6731 | 中关村 | `host-suffix, js.zol.com.cn, reject` |
-| 6732 | 中关村 | `host-suffix, mstat.zol.com.cn, reject` |
-| 6733 | 中关村 | `host-suffix, pv.zol.com.cn, reject` |
-| 6734 | 中关村 | `host-suffix, pvc.zol.com.cn, reject` |
-| 6735 | 中关村 | `host-suffix, pvm.zol.com.cn, reject` |
-| 6736 | 中关村 | `host-suffix, pvmsite.zol.com.cn, reject` |
-| 6737 | 中关村 | `host-suffix, pvnapp.zol.com.cn, reject` |
-| 6738 | 中关村 | `host-suffix, pvsite.zol.com.cn, reject` |
-| 6740 | 中关村 | `host-suffix, wappv.zol.com.cn, reject` |
-| 6742 | 中关村 | `host-suffix, afp.zol-img.com.cn, reject` |
-| 6743 | 中关村 | `host-suffix, pic.zol-img.com.cn, reject` |
-| 6744 | 中关村 | `host-suffix, api.zol.com, reject` |
-| 6753 | 中国电信 | `host, ad.21cn.com, reject` |
-| 6754 | 中国电信 | `host, ad.k.21cn.com, reject` |
-| 6755 | 中国电信 | `host, admarket.21cn.com, reject` |
-| 6757 | 中国电信 | `ip-cidr, 122.229.8.47/32, reject` |
-| 6758 | 中国电信 | `ip-cidr, 122.229.29.89/32, reject` |
-| 6803 | 中国平安 | `host-suffix, events.pingan.com, reject` |
-| 6825 | 中国日报 | `host-suffix, usercollection.chinadaily.com.cn, reject` |
-| 6834 | 中国移动 | `ip-cidr, 120.240.95.37/32, reject` |
-| 6858 | 中华万年历 | `host-keyword, lkme.cc, reject` |
-| 6859 | 中华万年历 | `host-keyword, api.freed.so, reject` |
-| 6860 | 中华万年历 | `host-keyword, log-dmp.suishenyun.cn, reject` |
-| 6861 | 中华万年历 | `host-keyword, client-dmp.suishenyun.cn, reject` |
-| 6862 | 中华万年历 | `host-keyword, pc.suishenyun.net, reject` |
-| 6863 | 中华万年历 | `host-keyword, v0-client-lz.rili.cn, reject` |
-| 6865 | 中华万年历 | `host-suffix, ad-android.51wnl.com, reject` |
-| 6866 | 中华万年历 | `host-suffix, ad.51wnl-cq.com, reject` |
-| 6867 | 中华万年历 | `host-suffix, adextra.51wnl-cq.com, reject` |
-| 6872 | 中华网 | `host-suffix, dvsend.china.com, reject` |
-| 6874 | 中华网 | `host-suffix, dvser02.china.com, reject` |
-| 6876 | 中华网 | `host-suffix, rank.hit.china.com, reject` |
-| 6960 | 字节跳动 | `host-suffix, xlog-va.byteoversea.com, reject` |
-| 6961 | 字节跳动 | `host-suffix, tosv.byted.org, reject` |
-| 6962 | 字节跳动 | `host-suffix, tosv.boe.byted.org, reject` |
-| 6964 | 字节跳动 | `host-suffix, sdfp.snssdk.com, reject` |
-| 6965 | 字节跳动 | `host-suffix, temai.snssdk.com, reject` |
-| 6999 | 作业帮 | `host-suffix, bu01.zybang.com, reject` |
-| 7000 | 作业帮 | `host-suffix, bu02.zybang.com, reject` |
-| 7005 | ZAKER新闻 | `host-suffix, adm.myzaker.com, reject` |
-| 7007 | ZAKER新闻 | `host-suffix, push-android.myzaker.com, reject` |
-| 7015 | 广告联盟 | `host-suffix, ad-sign.byteimg.com, reject` |
-| 7016 | 广告联盟 | `host-suffix, tos.pstatp.com, reject` |
-| 7017 | 广告联盟 | `host-keyword, asiad.byteactivity, reject` |
-| 7018 | 广告联盟 | `host-keyword, pangolin-sdk-toutiao, reject` |
-| 7019 | 广告联盟 | `host-keyword, pglstatp-toutiao, reject` |
-| 7021 | 广告联盟 | `host-suffix, video-cn.snssdk.com, reject` |
-| 7023 | 广告联盟 | `host-suffix, getui.net, reject` |
-| 7028 | 广告联盟 | `host-suffix, cdntips.net, reject` |
-| 7029 | 广告联盟 | `host-suffix, tfogc.com, reject` |
-| 7031 | 广告联盟 | `host-keyword, umeng, reject` |
-| 7032 | 广告联盟 | `host-suffix, 1a-1791.com, reject` |
-| 7033 | 广告联盟 | `host-suffix, rumble.com, reject` |
-| 7041 | 广告联盟 | `host-suffix, adchina.io, reject` |
-| 7046 | 广告联盟 | `host-keyword, adform, reject` |
-| 7048 | 广告联盟 | `host-suffix, ad.adhouyi.cn, reject` |
-| 7089 | 广告联盟 | `host-suffix, appdriver.com.cn, reject` |
-| 7107 | 广告联盟 | `host-suffix, dis.crieto.com, reject` |
-| 7128 | 广告联盟 | `host-keyword, dtscout, reject` |
-| 7145 | 广告联盟 | `host-suffix, giocdn.com, reject` |
-| 7153 | 广告联盟 | `host-suffix, mfan.iclick.com.cn, reject` |
-| 7163 | 广告联盟 | `host-suffix, business.inveno.com, reject` |
-| 7164 | 广告联盟 | `host-suffix, malacca.inveno.com, reject` |
-| 7165 | 广告联盟 | `host-suffix, zuimeitianqi.inveno.com, reject` |
-| 7184 | 广告联盟 | `host-suffix, juicyads.in, reject` |
-| 7206 | 广告联盟 | `host-suffix, keyrun.com, reject` |
-| 7212 | 广告联盟 | `host-suffix, config.kuyun.com, reject` |
-| 7213 | 广告联盟 | `host-suffix, logonext.tv.kuyun.com, reject` |
-| 7275 | 广告联盟 | `host-suffix, cca.mob.com, reject` |
-| 7276 | 广告联盟 | `host-suffix, api.cmt.mob.com, reject` |
-| 7288 | 广告联盟 | `host-keyword, mathtag, reject` |
-| 7331 | 广告联盟 | `host-suffix, pagechoice.com, reject` |
-| 7352 | 广告联盟 | `host-suffix, qtmojo.cn, reject` |
-| 7353 | 广告联盟 | `host-suffix, 1.qtmojo.cn, reject` |
-| 7354 | 广告联盟 | `host-suffix, creatim.qtmojo.cn, reject` |
-| 7355 | 广告联盟 | `host-suffix, wmcdn.qtmojo.cn, reject` |
-| 7392 | 广告联盟 | `host-suffix, snap.snapmobile.asia, reject` |
-| 7393 | 广告联盟 | `host-suffix, snapmobileasia.net, reject` |
-| 7394 | 广告联盟 | `host-suffix, selfie.snapmobileasia.net, reject` |
-| 7432 | 广告联盟 | `host-suffix, vista.tgbusdata.cn, reject` |
-| 7433 | 广告联盟 | `host-suffix, vista.tgbus.com, reject` |
-| 7450 | 广告联盟 | `host-suffix, tenddata.com, reject` |
-| 7496 | 广告联盟 | `host-suffix, ads.yandex.com, reject` |
+| 6664 | 知乎 | `ip-cidr, 118.89.204.198/32, reject` |
+| 6665 | 知乎 | `ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject` |
+| 6726 | 中关村 | `host-suffix, apppv.zol.com.cn, reject` |
+| 6728 | 中关村 | `host-suffix, dynamic.zol.com.cn, reject` |
+| 6730 | 中关村 | `host-suffix, js.zol.com.cn, reject` |
+| 6731 | 中关村 | `host-suffix, mstat.zol.com.cn, reject` |
+| 6732 | 中关村 | `host-suffix, pv.zol.com.cn, reject` |
+| 6733 | 中关村 | `host-suffix, pvc.zol.com.cn, reject` |
+| 6734 | 中关村 | `host-suffix, pvm.zol.com.cn, reject` |
+| 6735 | 中关村 | `host-suffix, pvmsite.zol.com.cn, reject` |
+| 6736 | 中关村 | `host-suffix, pvnapp.zol.com.cn, reject` |
+| 6737 | 中关村 | `host-suffix, pvsite.zol.com.cn, reject` |
+| 6739 | 中关村 | `host-suffix, wappv.zol.com.cn, reject` |
+| 6741 | 中关村 | `host-suffix, afp.zol-img.com.cn, reject` |
+| 6742 | 中关村 | `host-suffix, pic.zol-img.com.cn, reject` |
+| 6743 | 中关村 | `host-suffix, api.zol.com, reject` |
+| 6752 | 中国电信 | `host, ad.21cn.com, reject` |
+| 6753 | 中国电信 | `host, ad.k.21cn.com, reject` |
+| 6754 | 中国电信 | `host, admarket.21cn.com, reject` |
+| 6756 | 中国电信 | `ip-cidr, 122.229.8.47/32, reject` |
+| 6757 | 中国电信 | `ip-cidr, 122.229.29.89/32, reject` |
+| 6802 | 中国平安 | `host-suffix, events.pingan.com, reject` |
+| 6824 | 中国日报 | `host-suffix, usercollection.chinadaily.com.cn, reject` |
+| 6833 | 中国移动 | `ip-cidr, 120.240.95.37/32, reject` |
+| 6857 | 中华万年历 | `host-keyword, lkme.cc, reject` |
+| 6858 | 中华万年历 | `host-keyword, api.freed.so, reject` |
+| 6859 | 中华万年历 | `host-keyword, log-dmp.suishenyun.cn, reject` |
+| 6860 | 中华万年历 | `host-keyword, client-dmp.suishenyun.cn, reject` |
+| 6861 | 中华万年历 | `host-keyword, pc.suishenyun.net, reject` |
+| 6862 | 中华万年历 | `host-keyword, v0-client-lz.rili.cn, reject` |
+| 6864 | 中华万年历 | `host-suffix, ad-android.51wnl.com, reject` |
+| 6865 | 中华万年历 | `host-suffix, ad.51wnl-cq.com, reject` |
+| 6866 | 中华万年历 | `host-suffix, adextra.51wnl-cq.com, reject` |
+| 6871 | 中华网 | `host-suffix, dvsend.china.com, reject` |
+| 6873 | 中华网 | `host-suffix, dvser02.china.com, reject` |
+| 6875 | 中华网 | `host-suffix, rank.hit.china.com, reject` |
+| 6959 | 字节跳动 | `host-suffix, xlog-va.byteoversea.com, reject` |
+| 6960 | 字节跳动 | `host-suffix, tosv.byted.org, reject` |
+| 6961 | 字节跳动 | `host-suffix, tosv.boe.byted.org, reject` |
+| 6963 | 字节跳动 | `host-suffix, sdfp.snssdk.com, reject` |
+| 6964 | 字节跳动 | `host-suffix, temai.snssdk.com, reject` |
+| 6998 | 作业帮 | `host-suffix, bu01.zybang.com, reject` |
+| 6999 | 作业帮 | `host-suffix, bu02.zybang.com, reject` |
+| 7004 | ZAKER新闻 | `host-suffix, adm.myzaker.com, reject` |
+| 7006 | ZAKER新闻 | `host-suffix, push-android.myzaker.com, reject` |
+| 7014 | 广告联盟 | `host-suffix, ad-sign.byteimg.com, reject` |
+| 7015 | 广告联盟 | `host-suffix, tos.pstatp.com, reject` |
+| 7016 | 广告联盟 | `host-keyword, asiad.byteactivity, reject` |
+| 7017 | 广告联盟 | `host-keyword, pangolin-sdk-toutiao, reject` |
+| 7018 | 广告联盟 | `host-keyword, pglstatp-toutiao, reject` |
+| 7020 | 广告联盟 | `host-suffix, video-cn.snssdk.com, reject` |
+| 7022 | 广告联盟 | `host-suffix, getui.net, reject` |
+| 7027 | 广告联盟 | `host-suffix, cdntips.net, reject` |
+| 7028 | 广告联盟 | `host-suffix, tfogc.com, reject` |
+| 7030 | 广告联盟 | `host-keyword, umeng, reject` |
+| 7031 | 广告联盟 | `host-suffix, 1a-1791.com, reject` |
+| 7032 | 广告联盟 | `host-suffix, rumble.com, reject` |
+| 7040 | 广告联盟 | `host-suffix, adchina.io, reject` |
+| 7045 | 广告联盟 | `host-keyword, adform, reject` |
+| 7047 | 广告联盟 | `host-suffix, ad.adhouyi.cn, reject` |
+| 7088 | 广告联盟 | `host-suffix, appdriver.com.cn, reject` |
+| 7106 | 广告联盟 | `host-suffix, dis.crieto.com, reject` |
+| 7127 | 广告联盟 | `host-keyword, dtscout, reject` |
+| 7144 | 广告联盟 | `host-suffix, giocdn.com, reject` |
+| 7152 | 广告联盟 | `host-suffix, mfan.iclick.com.cn, reject` |
+| 7162 | 广告联盟 | `host-suffix, business.inveno.com, reject` |
+| 7163 | 广告联盟 | `host-suffix, malacca.inveno.com, reject` |
+| 7164 | 广告联盟 | `host-suffix, zuimeitianqi.inveno.com, reject` |
+| 7183 | 广告联盟 | `host-suffix, juicyads.in, reject` |
+| 7205 | 广告联盟 | `host-suffix, keyrun.com, reject` |
+| 7211 | 广告联盟 | `host-suffix, config.kuyun.com, reject` |
+| 7212 | 广告联盟 | `host-suffix, logonext.tv.kuyun.com, reject` |
+| 7274 | 广告联盟 | `host-suffix, cca.mob.com, reject` |
+| 7275 | 广告联盟 | `host-suffix, api.cmt.mob.com, reject` |
+| 7287 | 广告联盟 | `host-keyword, mathtag, reject` |
+| 7330 | 广告联盟 | `host-suffix, pagechoice.com, reject` |
+| 7351 | 广告联盟 | `host-suffix, qtmojo.cn, reject` |
+| 7352 | 广告联盟 | `host-suffix, 1.qtmojo.cn, reject` |
+| 7353 | 广告联盟 | `host-suffix, creatim.qtmojo.cn, reject` |
+| 7354 | 广告联盟 | `host-suffix, wmcdn.qtmojo.cn, reject` |
+| 7391 | 广告联盟 | `host-suffix, snap.snapmobile.asia, reject` |
+| 7392 | 广告联盟 | `host-suffix, snapmobileasia.net, reject` |
+| 7393 | 广告联盟 | `host-suffix, selfie.snapmobileasia.net, reject` |
+| 7431 | 广告联盟 | `host-suffix, vista.tgbusdata.cn, reject` |
+| 7432 | 广告联盟 | `host-suffix, vista.tgbus.com, reject` |
+| 7449 | 广告联盟 | `host-suffix, tenddata.com, reject` |
+| 7495 | 广告联盟 | `host-suffix, ads.yandex.com, reject` |
 
 完全相同/完整覆盖的每条规则及对应 Cats 原行，见 [cats-comparison.json](cats-comparison.json)。

@@ -1,23 +1,23 @@
 {
   "cats": {
     "branch": "main",
-    "bytes": 8476188,
-    "commit": "55c56be696e5f1043f867c9a4babb8b1d3b314da",
-    "commit_date": "2026-11-20T23:33:41Z",
+    "bytes": 8479316,
+    "commit": "192049177992ba6d14cbc2e823bd15f7499a4590",
+    "commit_date": "2026-11-21T22:40:35Z",
     "content_type": "text/plain; charset=utf-8",
-    "etag": "\"7b050cc69f9205454b6cdeaa40661b4f4411ee962c23d49a9fca702a7053d6ff\"",
-    "final_url": "https://raw.githubusercontent.com/Cats-Team/AdRules/55c56be696e5f1043f867c9a4babb8b1d3b314da/qx.conf",
+    "etag": "\"984c1d1ac62bba32bb8a56757963d5fb26b7b4df7c5edbeffb238e6d0f84df64\"",
+    "final_url": "https://raw.githubusercontent.com/Cats-Team/AdRules/192049177992ba6d14cbc2e823bd15f7499a4590/qx.conf",
     "path": "qx.conf",
     "repo": "Cats-Team/AdRules",
-    "sha256": "7d379208428407ca63f0f3a58e924dc95539b63abb0b91c8a9997309d95ab56b",
+    "sha256": "47bb3cfecc82f862ba582b495a8ee22ca92f8faf210bb0fdd68b1bcbcaeec625",
     "status": 200,
     "tracking_url": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/qx.conf",
-    "url": "https://raw.githubusercontent.com/Cats-Team/AdRules/55c56be696e5f1043f867c9a4babb8b1d3b314da/qx.conf"
+    "url": "https://raw.githubusercontent.com/Cats-Team/AdRules/192049177992ba6d14cbc2e823bd15f7499a4590/qx.conf"
   },
   "files": {
-    "cats-qx.conf": "7d379208428407ca63f0f3a58e924dc95539b63abb0b91c8a9997309d95ab56b",
+    "cats-qx.conf": "47bb3cfecc82f862ba582b495a8ee22ca92f8faf210bb0fdd68b1bcbcaeec625",
     "naisi-LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
-    "naisi-original.snippet": "8a8499e50d0311a078e4c4bf0c48097c3840843bd76bffab390c8a259fab0574",
+    "naisi-original.snippet": "199c590a6cfa54b7f68b8468fb10bad7168bbd4499fe70e0bb64544429a5e34a",
     "qx-import-rewrite.snippet": "2bd238342baaa08def2845b9c978868492ec947450bc0f2df3e67214d60ec3d3",
     "qx-resource-parser.js": "6b6dbdcdd77c7327e8a7d56e2ff8fd1177bd8b2eafb7c88b435dd61f2d2a4863",
     "qx-rewrite.md": "ac0c0684f850ee6d82bf3b065f79b9c8134935afe58682ee606d496528492f45",
@@ -26,18 +26,18 @@
   },
   "naisi": {
     "branch": "main",
-    "bytes": 357010,
-    "commit": "7bc19e8b57b4a67ecefade790574472de69074d0",
-    "commit_date": "2026-11-19T09:08:24Z",
+    "bytes": 356981,
+    "commit": "58f6cce6dbd5c5fe50c2998938f9c2ba631a7c18",
+    "commit_date": "2026-11-21T07:54:16Z",
     "content_type": "text/plain; charset=utf-8",
-    "etag": "\"b36e3508aa5a09ecd6228a40a776fc19ad8c728670dd5c6ec3b97734dd4e9f2a\"",
-    "final_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/7bc19e8b57b4a67ecefade790574472de69074d0/QuantumultX/rewrite/rewrite.snippet",
+    "etag": "\"8d1f6c7cb1686f98eadbd09425df3aca14c8704ff6585f4aef25baad76f05e3e\"",
+    "final_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/58f6cce6dbd5c5fe50c2998938f9c2ba631a7c18/QuantumultX/rewrite/rewrite.snippet",
     "path": "QuantumultX/rewrite/rewrite.snippet",
     "repo": "fmz200/wool_scripts",
-    "sha256": "8a8499e50d0311a078e4c4bf0c48097c3840843bd76bffab390c8a259fab0574",
+    "sha256": "199c590a6cfa54b7f68b8468fb10bad7168bbd4499fe70e0bb64544429a5e34a",
     "status": 200,
     "tracking_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/rewrite.snippet",
-    "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/7bc19e8b57b4a67ecefade790574472de69074d0/QuantumultX/rewrite/rewrite.snippet"
+    "url": "https://raw.githubusercontent.com/fmz200/wool_scripts/58f6cce6dbd5c5fe50c2998938f9c2ba631a7c18/QuantumultX/rewrite/rewrite.snippet"
   },
   "qx": {
     "commit": "af6fb594233ec4a3ec6d4ccb3601e9c36b75ea2d",

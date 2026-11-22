@@ -5,9 +5,9 @@
 ## 来源与复现
 
 - 原版仓库：[fmz200/wool_scripts](https://github.com/fmz200/wool_scripts)。
-- 固定输入 commit：`7bc19e8b57b4a67ecefade790574472de69074d0`；日期 `2026-11-19T09:08:24Z`。
-- 规则地址：[QuantumultX/rewrite/rewrite.snippet](https://raw.githubusercontent.com/fmz200/wool_scripts/7bc19e8b57b4a67ecefade790574472de69074d0/QuantumultX/rewrite/rewrite.snippet)。
-- 输入 SHA-256：`8a8499e50d0311a078e4c4bf0c48097c3840843bd76bffab390c8a259fab0574`。完整原始字节保存在 [upstream/naisi-original.snippet](upstream/naisi-original.snippet)。
+- 固定输入 commit：`58f6cce6dbd5c5fe50c2998938f9c2ba631a7c18`；日期 `2026-11-21T07:54:16Z`。
+- 规则地址：[QuantumultX/rewrite/rewrite.snippet](https://raw.githubusercontent.com/fmz200/wool_scripts/58f6cce6dbd5c5fe50c2998938f9c2ba631a7c18/QuantumultX/rewrite/rewrite.snippet)。
+- 输入 SHA-256：`199c590a6cfa54b7f68b8468fb10bad7168bbd4499fe70e0bb64544429a5e34a`。完整原始字节保存在 [upstream/naisi-original.snippet](upstream/naisi-original.snippet)。
 - 转换器固定从上述官方路径拉取；不读取 clean、compatible、v2 或其他历史修正版。
 - 每个物理行见 [source-ledger.json](source-ledger.json)；每条规则的原文、App、状态、修复、出处见 [rule-inventory.json](rule-inventory.json)。
 
@@ -15,23 +15,23 @@
 
 | 项目 | 数量 |
 |---|---:|
-| 原版物理行 | 7522 |
-| 原版有效规则行（不含注释、空行、hostname） | 4384 |
+| 原版物理行 | 7521 |
+| 原版有效规则行（不含注释、空行、hostname） | 4383 |
 | 原版重写候选 | 1623 |
-| 原版分流候选（包括隔离的 User-Agent） | 2761 |
+| 原版分流候选（包括隔离的 User-Agent） | 2760 |
 | 输出唯一重写 | 1598 |
-| 输出唯一域名/IP分流 | 2667 |
+| 输出唯一域名/IP分流 | 2666 |
 | 标准化后去重来源行 | 96 |
 | 合并到其他规则的来源行 | 1 |
 | 有修复说明的来源行 | 81 |
 | 隔离来源行 | 22 |
-| 可追溯保留来源行（输出+去重+合并） | 4362 |
+| 可追溯保留来源行（输出+去重+合并） | 4361 |
 | 上游 hostname 唯一项（含排除项） | 968 |
 | 输出有效 hostname 项 | 985 |
 | 补充的 hostname 项 | 73 |
 | 保留出处但未激活的上游 hostname 项 | 56 |
 
-静态可追溯保留比例：4362/4384（99.50%）。这是源规则的可追溯比例，不是实测功能成功率。隔离的冲突行在原匹配位置仍可能有保留的首条规则。
+静态可追溯保留比例：4361/4383（99.50%）。这是源规则的可追溯比例，不是实测功能成功率。隔离的冲突行在原匹配位置仍可能有保留的首条规则。
 源规则总数 = 输出重写 + 输出分流 + 去重 + 合并 + 隔离；没有未交代去向的删除。
 
 ### 重写动作的保留对比
@@ -145,12 +145,12 @@
 | 6296 | 优酷 | 规则类型/动作标准化：DOMAIN → host，策略 reject | `DOMAIN, ykad-data.youku.com, reject` | `host, ykad-data.youku.com, reject` |
 | 6297 | 优酷 | 规则类型/动作标准化：DOMAIN → host，策略 reject | `DOMAIN, ad.mobile.youku.com, reject` | `host, ad.mobile.youku.com, reject` |
 | 6397 | 邮储银行 | 将其他软件的 ‘- reject-*’ 写法转换为 QX ‘url reject-*’ | `^https?:\/\/static.psbc.com:8090\/mbank_f\/images\/[0-9]+\.png - reject-200` | `^https?:\/\/static.psbc.com:8090\/mbank_f\/images\/[0-9]+\.png url reject-200` |
-| 6665 | 知乎 | 规则类型/动作标准化：IP-CIDR → ip-cidr，策略 reject | `IP-CIDR, 118.89.204.198/32, reject` | `ip-cidr, 118.89.204.198/32, reject` |
-| 6666 | 知乎 | 规则类型/动作标准化：IP6-CIDR → ip6-cidr，策略 reject | `IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject` | `ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject` |
-| 6757 | 中国电信 | 规则类型/动作标准化：IP-CIDR → ip-cidr，策略 reject | `IP-CIDR, 122.229.8.47/32, reject` | `ip-cidr, 122.229.8.47/32, reject` |
-| 6758 | 中国电信 | 规则类型/动作标准化：IP-CIDR → ip-cidr，策略 reject | `IP-CIDR, 122.229.29.89/32, reject` | `ip-cidr, 122.229.29.89/32, reject` |
-| 6834 | 中国移动 | 规则类型/动作标准化：IP-CIDR → ip-cidr，策略 reject | `IP-CIDR, 120.240.95.37/32, reject` | `ip-cidr, 120.240.95.37/32, reject` |
-| 7288 | 广告联盟 | 规则类型/动作标准化：host-KEYWORD → host-keyword，策略 reject | `host-KEYWORD, mathtag, reject` | `host-keyword, mathtag, reject` |
+| 6664 | 知乎 | 规则类型/动作标准化：IP-CIDR → ip-cidr，策略 reject | `IP-CIDR, 118.89.204.198/32, reject` | `ip-cidr, 118.89.204.198/32, reject` |
+| 6665 | 知乎 | 规则类型/动作标准化：IP6-CIDR → ip6-cidr，策略 reject | `IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject` | `ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject` |
+| 6756 | 中国电信 | 规则类型/动作标准化：IP-CIDR → ip-cidr，策略 reject | `IP-CIDR, 122.229.8.47/32, reject` | `ip-cidr, 122.229.8.47/32, reject` |
+| 6757 | 中国电信 | 规则类型/动作标准化：IP-CIDR → ip-cidr，策略 reject | `IP-CIDR, 122.229.29.89/32, reject` | `ip-cidr, 122.229.29.89/32, reject` |
+| 6833 | 中国移动 | 规则类型/动作标准化：IP-CIDR → ip-cidr，策略 reject | `IP-CIDR, 120.240.95.37/32, reject` | `ip-cidr, 120.240.95.37/32, reject` |
+| 7287 | 广告联盟 | 规则类型/动作标准化：host-KEYWORD → host-keyword，策略 reject | `host-KEYWORD, mathtag, reject` | `host-keyword, mathtag, reject` |
 
 ## 全部隔离（原文、原因、证据与替代）
 
@@ -382,7 +382,7 @@ USER-AGENT,AVOS*, reject
 
 替代：USER-AGENT 是 QX 官方支持的分流类型，但本任务要求分流只含域名/IP；可自行将 user-agent, AVOS*, reject 加入现有 [filter_local]，本工具不改主配置
 
-### L6952 · 追书神器
+### L6951 · 追书神器
 
 ```text
 ^https?:\/\/adx-cn\.anythinktech\.com\/bid url reject-200
@@ -394,7 +394,7 @@ USER-AGENT,AVOS*, reject
 
 替代：逐 App 实测不同返回类型后决定是否替换 L1400；本次不改变优先级
 
-### L6958 · 字节跳动
+### L6957 · 字节跳动
 
 ```text
 host-suffix, -normal-lq.zijieapi.com, reject
@@ -406,7 +406,7 @@ host-suffix, -normal-lq.zijieapi.com, reject
 
 替代：可能意在匹配含 -normal-lq.zijieapi.com 的域名后缀字符串；改成 host-keyword 会改变匹配边界，需上游说明或 QX 实测后决定
 
-### L6980 · 字节跳动
+### L6979 · 字节跳动
 
 ```text
 ^https?:\/\/dsp\.toutiao\.com\/api\/xunfei\/ads\/ url reject-200
@@ -509,18 +509,18 @@ host-suffix, -normal-lq.zijieapi.com, reject
 | 5942 | 新浪 | duplicate | [5902] | `host-suffix, s.img.mix.sina.com.cn, reject` |
 | 5943 | 新浪 | duplicate | [5903] | `host-suffix, motu.p4p.sina.com.cn, reject` |
 | 5944 | 新浪 | duplicate | [5904] | `host-suffix, count.video.sina.com.cn, reject` |
-| 6967 | 字节跳动 | duplicate | [2410] | `host-suffix, ad.toutiao.com, reject` |
-| 6968 | 字节跳动 | duplicate | [2411] | `host-suffix, dm.toutiao.com, reject` |
-| 6969 | 字节跳动 | duplicate | [2412] | `host-suffix, dsp.toutiao.com, reject` |
-| 6970 | 字节跳动 | duplicate | [2413] | `host-suffix, nativeapp.toutiao.com, reject` |
-| 6971 | 字节跳动 | duplicate | [2414] | `host-suffix, partner.toutiao.com, reject` |
-| 6972 | 字节跳动 | duplicate | [2415] | `host-suffix, track.toutiao.com, reject` |
-| 6973 | 字节跳动 | duplicate | [2416] | `host-suffix, dm.pstatp.com, reject` |
-| 6974 | 字节跳动 | duplicate | [2417] | `host-suffix, pb3.pstatp.com, reject` |
-| 6975 | 字节跳动 | duplicate | [2418] | `host-suffix, s3a.pstatp.com, reject` |
-| 7027 | 广告联盟 | duplicate | [5045] | `host-suffix, zlsdk.1rtb.net, reject` |
-| 7110 | 广告联盟 | duplicate | [4810] | `host-suffix, gum.criteo.com, reject` |
-| 7419 | 广告联盟 | duplicate | [4811] | `host-suffix, smaato.net, reject` |
+| 6966 | 字节跳动 | duplicate | [2410] | `host-suffix, ad.toutiao.com, reject` |
+| 6967 | 字节跳动 | duplicate | [2411] | `host-suffix, dm.toutiao.com, reject` |
+| 6968 | 字节跳动 | duplicate | [2412] | `host-suffix, dsp.toutiao.com, reject` |
+| 6969 | 字节跳动 | duplicate | [2413] | `host-suffix, nativeapp.toutiao.com, reject` |
+| 6970 | 字节跳动 | duplicate | [2414] | `host-suffix, partner.toutiao.com, reject` |
+| 6971 | 字节跳动 | duplicate | [2415] | `host-suffix, track.toutiao.com, reject` |
+| 6972 | 字节跳动 | duplicate | [2416] | `host-suffix, dm.pstatp.com, reject` |
+| 6973 | 字节跳动 | duplicate | [2417] | `host-suffix, pb3.pstatp.com, reject` |
+| 6974 | 字节跳动 | duplicate | [2418] | `host-suffix, s3a.pstatp.com, reject` |
+| 7026 | 广告联盟 | duplicate | [5045] | `host-suffix, zlsdk.1rtb.net, reject` |
+| 7109 | 广告联盟 | duplicate | [4810] | `host-suffix, gum.criteo.com, reject` |
+| 7418 | 广告联盟 | duplicate | [4811] | `host-suffix, smaato.net, reject` |
 
 ## MITM hostname 核对
 
@@ -533,7 +533,7 @@ host-suffix, -normal-lq.zijieapi.com, reject
 
 | 补充主机名 | 对应原行 | 提取依据 |
 |---|---|---|
-| `*.amemv.com` | [6981] | projected-wildcard |
+| `*.amemv.com` | [6980] | projected-wildcard |
 | `114.115.217.129` | [2090] | finite-url-host |
 | `47.100.65.202` | [1698, 1699, 1700] | finite-url-host |
 | `789.kakamobi.cn` | [2344] | finite-url-host |
@@ -605,7 +605,7 @@ host-suffix, -normal-lq.zijieapi.com, reject
 | `www.yingwangtech.com` | [1036] | finite-url-host |
 | `www.yingwangtech.info` | [1036] | finite-url-host |
 | `wx.17u.cn` | [4698, 4699, 4706] | finite-url-host |
-| `zhstatic.zhihu.com` | [6709] | finite-url-host |
+| `zhstatic.zhihu.com` | [6708] | finite-url-host |
 
 ### 未自动解决 / 可选的重写
 
@@ -638,8 +638,8 @@ host-suffix, -normal-lq.zijieapi.com, reject
 | 6220 | 翼支付 | optional | 上游可选/证书限制提示；不自动扩张 MITM 范围 |
 | 6222 | 翼支付 | optional | 上游可选/证书限制提示；不自动扩张 MITM 范围 |
 | 6402 | 邮储银行 | optional | 上游可选/证书限制提示；不自动扩张 MITM 范围 |
-| 6724 | 智行APP | optional | 上游可选/证书限制提示；不自动扩张 MITM 范围 |
-| 6903 | 中银跨境GO | optional | 上游可选/证书限制提示；不自动扩张 MITM 范围 |
+| 6723 | 智行APP | optional | 上游可选/证书限制提示；不自动扩张 MITM 范围 |
+| 6902 | 中银跨境GO | optional | 上游可选/证书限制提示；不自动扩张 MITM 范围 |
 
 ### 未激活的上游 hostname（没有丢弃出处）
 
@@ -754,7 +754,7 @@ host-suffix, -normal-lq.zijieapi.com, reject
 | [3093, 3095] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/maimai/maimai_ads.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/maimai/maimai_ads.js) | 通过 | 861 |  |
 | [3254, 3255] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/meiyou/meiyou_ads.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/meiyou/meiyou_ads.js) | 通过 | 13949 | 内部网络 |
 | [265, 266, 4494, 4495, 5716] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/myBlockAds.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/myBlockAds.js) | 通过 | 7652 |  |
-| [6814, 6816] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/picc/picc_ads.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/picc/picc_ads.js) | 通过 | 609 |  |
+| [6813, 6815] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/picc/picc_ads.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/picc/picc_ads.js) | 通过 | 609 |  |
 | [2701] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/quark.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/quark.js) | 通过 | 14279 |  |
 | [3985] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/reddit.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/reddit.js) | 通过 | 742 |  |
 | [3931, 3935, 3937, 3939, 3941, 3943, 3945, 3947, 3949] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js) | 通过 | 25962 | 内部网络 |
@@ -768,14 +768,14 @@ host-suffix, -normal-lq.zijieapi.com, reject
 | [5227] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/youdao/dict-youdao-ad.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/youdao/dict-youdao-ad.js) | 通过 | 1202 |  |
 | [6371] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/yx.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/yx.js) | 通过 | 134 |  |
 | [6589] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhangshanggongjiao.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhangshanggongjiao.js) | 通过 | 688 |  |
-| [6669, 6670, 6673, 6675, 6677, 6680, 6690, 6692, 6694, 6698, 6701] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhihu/zhihu.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhihu/zhihu.js) | 通过 | 7358 |  |
-| [6943] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhuanzhuan/zhuanzhuan.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhuanzhuan/zhuanzhuan.js) | 通过 | 1020 |  |
+| [6668, 6669, 6672, 6674, 6676, 6679, 6689, 6691, 6693, 6697, 6700] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhihu/zhihu.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhihu/zhihu.js) | 通过 | 7358 |  |
+| [6942] | [https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhuanzhuan/zhuanzhuan.js](https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhuanzhuan/zhuanzhuan.js) | 通过 | 1020 |  |
 | [3298] | [https://raw.githubusercontent.com/fmz200/wool_scripts/refs/heads/main/Scripts/miguvideo/miguvideo_ads.js](https://raw.githubusercontent.com/fmz200/wool_scripts/refs/heads/main/Scripts/miguvideo/miguvideo_ads.js) | 通过 | 13377 | 内部网络 |
 | [5514, 5516, 5518, 5520, 5522, 5524, 5526] | [https://raw.githubusercontent.com/ishowshu/qx/refs/heads/main/script/goofish.js](https://raw.githubusercontent.com/ishowshu/qx/refs/heads/main/script/goofish.js) | 通过 | 7810 |  |
 | [51] | [https://raw.githubusercontent.com/kokoryh/Script/master/js/12306.js](https://raw.githubusercontent.com/kokoryh/Script/master/js/12306.js) | 通过 | 357 |  |
 | [5293] | [https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js](https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js) | 通过 | 86443 | 内部网络 |
 | [3799, 3801] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/51job.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/51job.js) | 通过 | 1169 |  |
-| [6789] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/airchina.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/airchina.js) | 通过 | 808 |  |
+| [6788] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/airchina.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/airchina.js) | 通过 | 808 |  |
 | [2372] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/alicdn.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/alicdn.js) | 通过 | 604 |  |
 | [1057, 1058, 1059, 1060] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js) | 通过 | 2295 |  |
 | [2370] | [https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ccblife.js](https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ccblife.js) | 通过 | 3262 |  |
@@ -1106,33 +1106,33 @@ host-suffix, -normal-lq.zijieapi.com, reject
 | 6470 | 元聚网络（漫画岛，追书神器，甜瓜小说） | kept | 匹配式含登录/支付/订单/购物车/验证相关字样；关键词筛查，需实机确认是否只改广告字段 |
 | 6610 | 掌上英雄联盟 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
 | 6658 | 知乎 | quarantined | 不是本交付范围的域名/IP 分流类型：USER-AGENT |
-| 6673 | 知乎 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
-| 6675 | 知乎 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
-| 6686 | 知乎 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
+| 6672 | 知乎 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
+| 6674 | 知乎 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
+| 6685 | 知乎 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
+| 6690 | 知乎 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
 | 6691 | 知乎 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
-| 6692 | 知乎 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
-| 6694 | 知乎 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
+| 6693 | 知乎 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
+| 6702 | 知乎 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
 | 6703 | 知乎 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
-| 6704 | 知乎 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
-| 6708 | 知乎 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
-| 6724 | 智行APP | kept | 上游标注可选/无法 MITM；保留规则，但不自动增加相应解密主机名，实际效果未确认 |
+| 6707 | 知乎 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
+| 6723 | 智行APP | kept | 上游标注可选/无法 MITM；保留规则，但不自动增加相应解密主机名，实际效果未确认 |
+| 6857 | 中华万年历 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
 | 6858 | 中华万年历 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
 | 6859 | 中华万年历 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
 | 6860 | 中华万年历 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
 | 6861 | 中华万年历 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
 | 6862 | 中华万年历 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
-| 6863 | 中华万年历 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
-| 6895 | 中信银行 | kept | 主机匹配式存在未转义的点，可能匹配其他字符；保留原意，不批量重写正则，需实机核对 |
-| 6903 | 中银跨境GO | kept | 匹配式含登录/支付/订单/购物车/验证相关字样；关键词筛查，需实机确认是否只改广告字段；上游标注可选/无法 MITM；保留规则，但不自动增加相应解密主机名，实际效果未确认 |
-| 6941 | 转转 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
-| 6958 | 字节跳动 | quarantined | 目标不符合本工具的标准主机名/通配符检查：-normal-lq.zijieapi.com；不据此断言所有 QX 版本都会拒绝 |
+| 6894 | 中信银行 | kept | 主机匹配式存在未转义的点，可能匹配其他字符；保留原意，不批量重写正则，需实机核对 |
+| 6902 | 中银跨境GO | kept | 匹配式含登录/支付/订单/购物车/验证相关字样；关键词筛查，需实机确认是否只改广告字段；上游标注可选/无法 MITM；保留规则，但不自动增加相应解密主机名，实际效果未确认 |
+| 6940 | 转转 | kept | 可能同时精简正常推荐/信息流；尤其闲鱼商品详情推荐，并非全部是付费广告 |
+| 6957 | 字节跳动 | quarantined | 目标不符合本工具的标准主机名/通配符检查：-normal-lq.zijieapi.com；不据此断言所有 QX 版本都会拒绝 |
+| 7016 | 广告联盟 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
 | 7017 | 广告联盟 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
 | 7018 | 广告联盟 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
-| 7019 | 广告联盟 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
-| 7031 | 广告联盟 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
-| 7046 | 广告联盟 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
-| 7128 | 广告联盟 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
-| 7288 | 广告联盟 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
+| 7030 | 广告联盟 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
+| 7045 | 广告联盟 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
+| 7127 | 广告联盟 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
+| 7287 | 广告联盟 | kept | 关键词会匹配任意包含该字符串的域名，作用范围较宽 |
 
 ## 功能对比、Cats 与实机待验
 

@@ -8,14 +8,14 @@
     "mitm_inactive": 56,
     "mitm_original": 968,
     "mitm_output": 985,
-    "output_filters": 2667,
+    "output_filters": 2666,
     "output_rewrites": 1598,
     "quarantined": 22,
-    "represented": 4362,
-    "source_filters": 2761,
-    "source_physical_lines": 7522,
+    "represented": 4361,
+    "source_filters": 2760,
+    "source_physical_lines": 7521,
     "source_rewrites": 1623,
-    "source_rules": 4384
+    "source_rules": 4383
   },
   "tests": {
     "command": "python3 -m unittest discover -s tests -v",

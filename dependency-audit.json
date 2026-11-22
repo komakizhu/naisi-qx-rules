@@ -1352,7 +1352,7 @@
   "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/picc/picc_ads.js": {
     "bytes": 609,
     "cache_file": "224bd1ed6acc12dd248fba56140ca63c6adc30bccb2bd032d44e62407d4bb44c.js",
-    "checked_at": "2026-11-21T02:31:05+00:00",
+    "checked_at": "2026-11-22T01:26:43+00:00",
     "content_type": "text/plain; charset=utf-8",
     "delivery_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/picc/picc_ads.js",
     "dynamic_code": false,
@@ -1368,8 +1368,8 @@
     "runtime_fetch": false,
     "sha256": "07e5fa66a0efe225b0dae2beaab83a9f1f9ad4dd6d3748d571156db8e324300c",
     "source_lines": [
-      6814,
-      6816
+      6813,
+      6815
     ],
     "status": 200,
     "syntax": {
@@ -1776,7 +1776,7 @@
   "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhihu/zhihu.js": {
     "bytes": 7358,
     "cache_file": "1fa3a573d88ad61e046f92b0646aa6ac3bb880a576c61d4fbda6fb53c4398317.js",
-    "checked_at": "2026-11-21T02:31:05+00:00",
+    "checked_at": "2026-11-22T01:26:44+00:00",
     "content_type": "text/plain; charset=utf-8",
     "delivery_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhihu/zhihu.js",
     "dynamic_code": false,
@@ -1792,17 +1792,17 @@
     "runtime_fetch": false,
     "sha256": "544fd88207b9d7005bb5cf427a1994028f91a95a65fde3db72a501983bff99f4",
     "source_lines": [
+      6668,
       6669,
-      6670,
-      6673,
-      6675,
-      6677,
-      6680,
-      6690,
-      6692,
-      6694,
-      6698,
-      6701
+      6672,
+      6674,
+      6676,
+      6679,
+      6689,
+      6691,
+      6693,
+      6697,
+      6700
     ],
     "status": 200,
     "syntax": {
@@ -1814,7 +1814,7 @@
   "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhuanzhuan/zhuanzhuan.js": {
     "bytes": 1020,
     "cache_file": "5af7cfca554d6c202b382a3ee21de291cb7532619d17b712dc0761d12571b4f8.js",
-    "checked_at": "2026-11-21T02:31:05+00:00",
+    "checked_at": "2026-11-22T01:26:44+00:00",
     "content_type": "text/plain; charset=utf-8",
     "delivery_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhuanzhuan/zhuanzhuan.js",
     "dynamic_code": false,
@@ -1830,7 +1830,7 @@
     "runtime_fetch": false,
     "sha256": "b8498e51290e0d0e83018d216b9cf44d602cef5392c39a509ca576c06937efaf",
     "source_lines": [
-      6943
+      6942
     ],
     "status": 200,
     "syntax": {
@@ -1998,7 +1998,7 @@
   "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/airchina.js": {
     "bytes": 808,
     "cache_file": "ef523f718bdc0ef57e4b6dd2966b2b57d5806c3514ab863758b0dc117ecdc89a.js",
-    "checked_at": "2026-11-21T02:31:05+00:00",
+    "checked_at": "2026-11-22T01:26:44+00:00",
     "content_type": "text/plain; charset=utf-8",
     "delivery_url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/airchina.js",
     "dynamic_code": false,
@@ -2013,7 +2013,7 @@
     "runtime_fetch": false,
     "sha256": "b3ad5ac0f6bd2a53b93aa5476cb97d7dcc386952ee1f7fae48f4a9ce98f1a2eb",
     "source_lines": [
-      6789
+      6788
     ],
     "status": 200,
     "syntax": {
