@@ -2224,13 +2224,13 @@
     "url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/foliday.js"
   },
   "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/freshippo.js": {
-    "bytes": 2094,
+    "bytes": 2740,
     "cache_file": "806c7be05c2b8c0a7b0dd2b302ca6eab3f9f080a6b143120d00c052014108cbd.js",
-    "checked_at": "2026-11-21T02:31:06+00:00",
+    "checked_at": "2026-11-26T03:39:22+00:00",
     "content_type": "text/plain; charset=utf-8",
     "delivery_url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/freshippo.js",
     "dynamic_code": false,
-    "etag": "\"ad173155dbe71f9bc4274b1b79b28340c78a825c71b90bdbc8077a8ef42593ab\"",
+    "etag": "\"c221af32602a86360148caa3cfdd47afb4e9d9dfc68943d4655453219f0aab37\"",
     "final_url": "https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/freshippo.js",
     "kind": "script",
     "ok": true,
@@ -2240,7 +2240,7 @@
       "$response"
     ],
     "runtime_fetch": false,
-    "sha256": "edf71faccbca61b153bbce98f56b75e27313883cf520e5e315f6ba15ed52360d",
+    "sha256": "b2a3315778443206bab90d40c3cfd7d90c4e726eee64aa65d7df3141865eef3e",
     "source_lines": [
       2131
     ],
