@@ -5,8 +5,8 @@
 ## 来源与复现
 
 - 原版仓库：[fmz200/wool_scripts](https://github.com/fmz200/wool_scripts)。
-- 固定输入 commit：`f6bcc087e4da7ebef3c596be4a3c0fa406661564`；日期 `2026-11-25T13:37:55Z`。
-- 规则地址：[QuantumultX/rewrite/rewrite.snippet](https://raw.githubusercontent.com/fmz200/wool_scripts/f6bcc087e4da7ebef3c596be4a3c0fa406661564/QuantumultX/rewrite/rewrite.snippet)。
+- 固定输入 commit：`d875bc946ed8a6a9606ef40d29bf55a7c8435e08`；日期 `2026-11-28T00:56:15Z`。
+- 规则地址：[QuantumultX/rewrite/rewrite.snippet](https://raw.githubusercontent.com/fmz200/wool_scripts/d875bc946ed8a6a9606ef40d29bf55a7c8435e08/QuantumultX/rewrite/rewrite.snippet)。
 - 输入 SHA-256：`199c590a6cfa54b7f68b8468fb10bad7168bbd4499fe70e0bb64544429a5e34a`。完整原始字节保存在 [upstream/naisi-original.snippet](upstream/naisi-original.snippet)。
 - 转换器固定从上述官方路径拉取；不读取 clean、compatible、v2 或其他历史修正版。
 - 每个物理行见 [source-ledger.json](source-ledger.json)；每条规则的原文、App、状态、修复、出处见 [rule-inventory.json](rule-inventory.json)。
